@@ -1,0 +1,840 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+A	imageLib/Image.h	/^    PixType B, G, R, A;     \/\/ A channel is highest one$/;"	m	struct:RGBA
+ARC_BLOCK_SIZE	MRF/graph.h	63;"	d
+ARRAY	MRF/mrf.h	/^            ARRAY,$/;"	e	enum:MRF::__anon2
+AddVector	MRF/BP-S.cpp	/^inline void AddVector(BPS::REAL* to, BPS::REAL* from, int K)$/;"	f
+AddVector	MRF/TRW-S.cpp	/^inline void AddVector(TRWS::REAL* to, TRWS::REAL* from, int K)$/;"	f
+Allocate	MRF/BP-S.cpp	/^void BPS::Allocate()$/;"	f	class:BPS
+Allocate	MRF/TRW-S.cpp	/^void TRWS::Allocate()$/;"	f	class:TRWS
+B	imageLib/Image.h	/^    PixType B, G, R, A;     \/\/ A channel is highest one$/;"	m	struct:RGBA
+BIN	mrfstereo/Makefile	/^BIN = $(SRC:.cpp=)$/;"	m
+BINARY	MRF/BP-S.h	/^	    BINARY,$/;"	e	enum:BPS::__anon1
+BINARY	MRF/MaxProdBP.h	/^      BINARY,$/;"	e	enum:MaxProdBP::__anon7
+BINARY	MRF/TRW-S.h	/^	    BINARY,$/;"	e	enum:TRWS::__anon3
+BPS	MRF/BP-S.cpp	/^BPS::BPS(int nPixels, int nLabels,EnergyFunction *eng):MRF(nPixels,nLabels,eng)$/;"	f	class:BPS
+BPS	MRF/BP-S.cpp	/^BPS::BPS(int width, int height, int nLabels,EnergyFunction *eng):MRF(width,height,nLabels,eng)$/;"	f	class:BPS
+BPS	MRF/BP-S.h	/^class BPS : public MRF{$/;"	c
+BPinitializeAlg	MRF/MaxProdBP.cpp	/^void MaxProdBP::BPinitializeAlg()$/;"	f	class:MaxProdBP
+BandSelect	imageLib/Convert.cpp	/^extern void BandSelect(CImageOf<T>& src, CImageOf<T>& dst, int sBand, int dBand)$/;"	f
+BandSize	imageLib/Image.h	/^    int BandSize(void)              { return m_bandSize; }$/;"	f	class:CImage
+Block	MRF/block.h	/^    Block(int size, void (*err_function)(char *) = NULL) { first = last = NULL; block_size = size; error_function = err_function; }$/;"	f	class:Block
+Block	MRF/block.h	/^template <class Type> class Block$/;"	c
+BlockType	MRF/LinkedBlockList.h	/^typedef unsigned char BlockType;$/;"	t
+CByteImage	imageLib/Image.h	/^typedef CImageOf<uchar> CByteImage;$/;"	t
+CC	MRF/Makefile	/^CC = g++$/;"	m
+CC	imageLib/Makefile	/^CC = g++$/;"	m
+CC	mrfstereo/Makefile	/^CC = g++$/;"	m
+CError	imageLib/Error.h	/^    CError(const char* fmt, const char *s)  { sprintf(message, fmt, s); }$/;"	f	struct:CError
+CError	imageLib/Error.h	/^    CError(const char* fmt, const char *s,$/;"	f	struct:CError
+CError	imageLib/Error.h	/^    CError(const char* fmt, float f)        { sprintf(message, fmt, f); }$/;"	f	struct:CError
+CError	imageLib/Error.h	/^    CError(const char* fmt, int d)          { sprintf(message, fmt, d); }$/;"	f	struct:CError
+CError	imageLib/Error.h	/^    CError(const char* msg)                 { strcpy(message, msg); }$/;"	f	struct:CError
+CError	imageLib/Error.h	/^struct CError : public exception$/;"	s
+CFloatImage	imageLib/Image.h	/^typedef CImageOf<float> CFloatImage;$/;"	t
+CImage	imageLib/Image.cpp	/^CImage::CImage()$/;"	f	class:CImage
+CImage	imageLib/Image.cpp	/^CImage::CImage(CShape s, const type_info& ti, int cS)$/;"	f	class:CImage
+CImage	imageLib/Image.h	/^class CImage : public CImageAttributes$/;"	c
+CImageAttributes	imageLib/Image.h	/^struct CImageAttributes$/;"	s
+CImageOf	imageLib/Image.h	/^class CImageOf : public CImage$/;"	c
+CImageOf	imageLib/Image.h	/^inline CImageOf<T>::CImageOf(CShape s) :$/;"	f	class:CImageOf
+CImageOf	imageLib/Image.h	/^inline CImageOf<T>::CImageOf(int width, int height, int nBands) :$/;"	f	class:CImageOf
+CImageOf	imageLib/Image.h	/^inline CImageOf<T>::CImageOf(void) :$/;"	f	class:CImageOf
+CIntImage	imageLib/Image.h	/^typedef CImageOf<int>   CIntImage;$/;"	t
+CPPFLAGS	MRF/Makefile	/^CPPFLAGS = $(OPT) $(WARN) -DUSE_64_BIT_PTR_CAST$/;"	m
+CPPFLAGS	imageLib/Makefile	/^CPPFLAGS = $(OPT) $(WARN)$/;"	m
+CPPFLAGS	mrfstereo/Makefile	/^CPPFLAGS = -02 -W -Wall -I..\/MRF -I..\/imageLib$/;"	m
+CRefCntMem	imageLib/RefCntMem.cpp	/^CRefCntMem::CRefCntMem()$/;"	f	class:CRefCntMem
+CRefCntMem	imageLib/RefCntMem.cpp	/^CRefCntMem::CRefCntMem(const CRefCntMem& ref)$/;"	f	class:CRefCntMem
+CRefCntMem	imageLib/RefCntMem.h	/^class CRefCntMem            \/\/ reference-counted memory allocator$/;"	c
+CRefCntMemPtr	imageLib/RefCntMem.h	/^struct CRefCntMemPtr         \/\/ shared component of reference counted memory$/;"	s
+CShape	imageLib/Image.h	/^    CShape(int w, int h, int nb) : width(w), height(h), nBands(nb) {}$/;"	f	struct:CShape
+CShape	imageLib/Image.h	/^    CShape(void) : width(0), height(0), nBands(0) {}$/;"	f	struct:CShape
+CShape	imageLib/Image.h	/^struct CShape$/;"	s
+CTargaHead	imageLib/ImageIO.cpp	/^struct CTargaHead$/;"	s	file:
+CTargaRLC	imageLib/ImageIO.cpp	/^    CTargaRLC(bool RLC) : m_count(0), m_RLC(RLC) {}$/;"	f	class:CTargaRLC
+CTargaRLC	imageLib/ImageIO.cpp	/^class CTargaRLC$/;"	c	file:
+ClearPixels	imageLib/Image.h	/^inline void CImageOf<T>::ClearPixels(void)$/;"	f	class:CImageOf
+ComputeMsgDown	MRF/regions-maxprod.cpp	/^void OneNodeCluster::ComputeMsgDown(FLOATTYPE *msgDest, int r, int c, MaxProdBP *mrf)$/;"	f	class:OneNodeCluster
+ComputeMsgLeft	MRF/regions-maxprod.cpp	/^void OneNodeCluster::ComputeMsgLeft(FLOATTYPE *msgDest, int r, int c, MaxProdBP *mrf)$/;"	f	class:OneNodeCluster
+ComputeMsgRight	MRF/regions-maxprod.cpp	/^void OneNodeCluster::ComputeMsgRight(FLOATTYPE *msgDest, int r, int c, MaxProdBP *mrf)$/;"	f	class:OneNodeCluster
+ComputeMsgUp	MRF/regions-maxprod.cpp	/^void OneNodeCluster::ComputeMsgUp(FLOATTYPE *msgDest, int r, int c, MaxProdBP *mrf)$/;"	f	class:OneNodeCluster
+ConvKernelInitializer	imageLib/Convolve.cpp	/^KernelInit ConvKernelInitializer;$/;"	v
+ConvertToGray	imageLib/Convert.cpp	/^extern CImageOf<T> ConvertToGray(CImageOf<T> src)$/;"	f
+ConvertToRGBA	imageLib/Convert.cpp	/^extern CImageOf<T> ConvertToRGBA(CImageOf<T> src)$/;"	f
+Convolve	imageLib/Convolve.cpp	/^void Convolve(CImageOf<T> src, CImageOf<T>& dst,$/;"	f
+ConvolveKernel_121	imageLib/Convolve.cpp	/^CFloatImage ConvolveKernel_121;$/;"	v
+ConvolveKernel_1331	imageLib/Convolve.cpp	/^CFloatImage ConvolveKernel_1331;$/;"	v
+ConvolveKernel_14641	imageLib/Convolve.cpp	/^CFloatImage ConvolveKernel_14641;$/;"	v
+ConvolveKernel_8TapLowPass	imageLib/Convolve.cpp	/^CFloatImage ConvolveKernel_8TapLowPass;$/;"	v
+ConvolveRow2D	imageLib/Convolve.cpp	/^void ConvolveRow2D(CFloatImage& buffer, CFloatImage& kernel, float dst[],$/;"	f	file:
+ConvolveSeparable	imageLib/Convolve.cpp	/^void ConvolveSeparable(CImageOf<T> src, CImageOf<T>& dst,$/;"	f
+CopyPixels	imageLib/Convert.h	/^inline void CopyPixels(CImageOf<T1>& src, CImageOf<T2>& dst)$/;"	f
+CopyVector	MRF/BP-S.cpp	/^inline void CopyVector(BPS::REAL* to, MRF::CostVal* from, int K)$/;"	f
+CopyVector	MRF/TRW-S.cpp	/^inline void CopyVector(TRWS::REAL* to, MRF::CostVal* from, int K)$/;"	f
+CostVal	MRF/mrf.h	/^    typedef MRF::CostVal CostVal;$/;"	t	class:DataCost
+CostVal	MRF/mrf.h	/^    typedef MRF::CostVal CostVal;$/;"	t	class:SmoothnessCost
+CostVal	MRF/mrf.h	/^    typedef int CostVal;          \/* costs of individual terms of the energy *\/$/;"	t	class:MRF
+D	MRF/example.cpp	/^MRF::CostVal D[sizeX*sizeY*numLabels];$/;"	v
+DBlock	MRF/block.h	/^    DBlock(int size, void (*err_function)(const char *) = NULL) { first = NULL; first_free = NULL; block_size = size; error_function = err_function; }$/;"	f	class:DBlock
+DBlock	MRF/block.h	/^template <class Type> class DBlock$/;"	c
+DEBUG_ImageIOpng	imageLib/ImageIOpng.cpp	35;"	d	file:
+DIST	MRF/graph.h	/^        int             DIST;       \/* distance to the terminal *\/$/;"	m	struct:Graph::node_st
+DOWN	MRF/regions-maxprod.cpp	13;"	d	file:
+DOWN	MRF/regions-new.h	8;"	d
+DataCost	MRF/mrf.h	/^    DataCost(CostVal *cost){m_costArray = cost;m_type = MRF::ARRAY; };$/;"	f	class:DataCost
+DataCost	MRF/mrf.h	/^    DataCost(DataCostFn costFn){m_costFn = costFn;m_type = MRF::FUNCTION;};$/;"	f	class:DataCost
+DataCost	MRF/mrf.h	/^class DataCost$/;"	c
+DataCostFn	MRF/mrf.h	/^    typedef CostVal (*DataCostFn)(int pix, Label l); $/;"	t	class:MRF
+DataCostFn	MRF/mrf.h	/^    typedef MRF::DataCostFn DataCostFn;$/;"	t	class:DataCost
+DeAllocate	imageLib/Image.cpp	/^void CImage::DeAllocate()$/;"	f	class:CImage
+DecrementCount	imageLib/RefCntMem.cpp	/^void CRefCntMem::DecrementCount()$/;"	f	class:CRefCntMem
+Delete	MRF/block.h	/^    void Delete(Type *t)$/;"	f	class:DBlock
+DistanceTransformL2	MRF/typeTruncatedQuadratic2D.h	/^	void DistanceTransformL2(int \/*K*\/, int \/*stride*\/, REAL \/*alpha*\/, REAL* \/*source*\/, REAL* \/*dest*\/,$/;"	f	struct:TypeTruncatedQuadratic2D::Edge
+EBorderMode	imageLib/Image.h	/^enum EBorderMode$/;"	g
+EXE	mrfstereo/Makefile	/^EXE = $(SRC:.cpp=.exe)$/;"	m
+Econst	MRF/energy.h	/^    TotalValue  Econst;$/;"	m	class:Energy
+Edge	MRF/typeTruncatedQuadratic2D.h	/^    struct Edge$/;"	s	struct:TypeTruncatedQuadratic2D
+Energy	MRF/energy.h	/^class Energy : Graph$/;"	c
+Energy	MRF/energy.h	/^inline Energy::Energy(void (*err_function)(const char *)) : Graph(err_function)$/;"	f	class:Energy
+EnergyFunction	MRF/mrf.h	/^    EnergyFunction(DataCost *dataCost,SmoothnessCost *smoothCost)$/;"	f	class:EnergyFunction
+EnergyFunction	MRF/mrf.h	/^class EnergyFunction$/;"	c
+EnergyTermType	MRF/GCoptimization.h	/^    typedef Graph::captype EnergyTermType;$/;"	t	class:GCoptimization
+EnergyType	MRF/GCoptimization.h	/^    typedef Graph::flowtype EnergyType;$/;"	t	class:GCoptimization
+EnergyVal	MRF/mrf.h	/^    typedef int EnergyVal;        \/* The total energy of a labeling *\/$/;"	t	class:MRF
+Expansion	MRF/GCoptimization.h	/^    Expansion(PixelType nPixels, int num_labels,EnergyFunction *eng):GCoptimization(nPixels,num_labels,eng){};$/;"	f	class:Expansion
+Expansion	MRF/GCoptimization.h	/^    Expansion(PixelType width,PixelType height,int num_labels,EnergyFunction *eng):GCoptimization(width,height,num_labels,eng){};$/;"	f	class:Expansion
+Expansion	MRF/GCoptimization.h	/^class Expansion: public GCoptimization$/;"	c
+FIXED_MATRIX	MRF/BP-S.h	/^	    FIXED_MATRIX,$/;"	e	enum:BPS::__anon1
+FIXED_MATRIX	MRF/MaxProdBP.h	/^      FIXED_MATRIX,$/;"	e	enum:MaxProdBP::__anon7
+FIXED_MATRIX	MRF/TRW-S.h	/^	    FIXED_MATRIX,$/;"	e	enum:TRWS::__anon3
+FLOATTYPE	MRF/MaxProdBP.h	13;"	d
+FLOATTYPE	MRF/regions-new.h	6;"	d
+FLT_MAX	imageLib/Image.h	52;"	d
+FLT_MIN	imageLib/Image.h	53;"	d
+FUNCTION	MRF/mrf.h	/^            FUNCTION,$/;"	e	enum:MRF::__anon2
+FillPixels	imageLib/Image.h	/^inline void CImageOf<T>::FillPixels(T val)$/;"	f	class:CImageOf
+FillRowBuffer	imageLib/Convolve.cpp	/^static void FillRowBuffer(float buf[], CImageOf<T>& src, CFloatImage& kernel,$/;"	f	file:
+FloatType	MRF/MaxProdBP.h	12;"	d
+G	imageLib/Image.h	/^    PixType B, G, R, A;     \/\/ A channel is highest one$/;"	m	struct:RGBA
+GCLL_BLOCK_SIZE	MRF/LinkedBlockList.h	12;"	d
+GCoptimization	MRF/GCoptimization.cpp	/^GCoptimization::GCoptimization(PixelType nPixels,int nLabels,EnergyFunction *eng):MRF(nPixels,nLabels,eng) $/;"	f	class:GCoptimization
+GCoptimization	MRF/GCoptimization.cpp	/^GCoptimization::GCoptimization(PixelType width,PixelType height,LabelType nLabels,EnergyFunction *eng):MRF(width,height,nLabels,eng)$/;"	f	class:GCoptimization
+GCoptimization	MRF/GCoptimization.h	/^class GCoptimization:public MRF$/;"	c
+GENERAL	MRF/BP-S.h	/^	    GENERAL,$/;"	e	enum:BPS::__anon1
+GENERAL	MRF/MaxProdBP.h	/^      GENERAL,$/;"	e	enum:MaxProdBP::__anon7
+GENERAL	MRF/TRW-S.h	/^	    GENERAL,$/;"	e	enum:TRWS::__anon3
+Graph	MRF/graph.cpp	/^Graph::Graph(void (*err_function)(const char *))$/;"	f	class:Graph
+Graph	MRF/graph.h	/^class Graph$/;"	c
+HAVE_PNG_LIB	imageLib/ImageIO.cpp	32;"	d	file:
+ICM	MRF/ICM.cpp	/^ICM::ICM(int nPixels, int nLabels,EnergyFunction *eng):MRF(nPixels,nLabels,eng)$/;"	f	class:ICM
+ICM	MRF/ICM.cpp	/^ICM::ICM(int width, int height, int nLabels,EnergyFunction *eng):MRF(width,height,nLabels,eng)$/;"	f	class:ICM
+ICM	MRF/ICM.h	/^class ICM : public MRF{$/;"	c
+INFINITE_D	MRF/maxflow.cpp	30;"	d	file:
+IS_ODD	MRF/graph.h	127;"	d
+InBounds	imageLib/Image.h	/^inline bool CShape::InBounds(int x, int y)$/;"	f	class:CShape
+InBounds	imageLib/Image.h	/^inline bool CShape::InBounds(int x, int y, int b)$/;"	f	class:CShape
+InBounds	imageLib/RefCntMem.cpp	/^bool CRefCntMem::InBounds(int index)$/;"	f	class:CRefCntMem
+IncrementCount	imageLib/RefCntMem.cpp	/^void CRefCntMem::IncrementCount()$/;"	f	class:CRefCntMem
+InputType	MRF/mrf.h	/^        } InputType;$/;"	t	class:MRF	typeref:enum:MRF::__anon2
+InstantiateConvolutionOf	imageLib/Convolve.cpp	/^void InstantiateConvolutionOf(CImageOf<T> img)$/;"	f
+InstantiateConvolutions	imageLib/Convolve.cpp	/^void InstantiateConvolutions()$/;"	f
+KernelInit	imageLib/Convolve.cpp	/^KernelInit::KernelInit()$/;"	f	class:KernelInit
+KernelInit	imageLib/Convolve.cpp	/^struct KernelInit$/;"	s	file:
+L1	MRF/BP-S.h	/^	    L1,$/;"	e	enum:BPS::__anon1
+L1	MRF/MaxProdBP.h	/^      L1,$/;"	e	enum:MaxProdBP::__anon7
+L1	MRF/TRW-S.h	/^	    L1,$/;"	e	enum:TRWS::__anon3
+L2	MRF/BP-S.h	/^	    L2,$/;"	e	enum:BPS::__anon1
+L2	MRF/MaxProdBP.h	/^      L2,$/;"	e	enum:MaxProdBP::__anon7
+L2	MRF/TRW-S.h	/^	    L2,$/;"	e	enum:TRWS::__anon3
+LAST_NODE	MRF/graph.h	/^            node                *LAST_NODE; \/* used in graph consruction *\/$/;"	m	union:Graph::arc_for_block_st::__anon5
+LAST_NODE	MRF/graph.h	/^            node                *LAST_NODE; \/* used in graph consruction *\/$/;"	m	union:Graph::arc_rev_block_st::__anon6
+LAST_NODE	MRF/graph.h	/^        }                       LAST_NODE;$/;"	m	struct:Graph::arc_for_block_st	typeref:union:Graph::arc_for_block_st::__anon5
+LAST_NODE	MRF/graph.h	/^        }                       LAST_NODE;$/;"	m	struct:Graph::arc_rev_block_st	typeref:union:Graph::arc_rev_block_st::__anon6
+LDLIBS	mrfstereo/Makefile	/^LDLIBS = -L..\/MRF -lMRF -L..\/imageLib -lImg -lpng -lz$/;"	m
+LEFT	MRF/regions-maxprod.cpp	14;"	d	file:
+LEFT	MRF/regions-new.h	9;"	d
+LLBlock	MRF/LinkedBlockList.h	/^    } LLBlock;$/;"	t	class:LinkedBlockList	typeref:struct:LinkedBlockList::LLBlockStruct
+LLBlockStruct	MRF/LinkedBlockList.h	/^    typedef struct LLBlockStruct{$/;"	s	class:LinkedBlockList
+Label	MRF/mrf.h	/^    typedef int Label;$/;"	t	class:MRF
+LabelType	MRF/GCoptimization.h	/^    typedef int LabelType;$/;"	t	class:GCoptimization
+LinkedBlockList	MRF/LinkedBlockList.h	/^    inline LinkedBlockList(){m_head = 0; m_head_block_size = GCLL_BLOCK_SIZE;}; $/;"	f	class:LinkedBlockList
+LinkedBlockList	MRF/LinkedBlockList.h	/^class LinkedBlockList{$/;"	c
+ListType	MRF/LinkedBlockList.h	/^typedef void * ListType;$/;"	t
+MAKE_EVEN	MRF/graph.h	129;"	d
+MAKE_EVEN_REV	MRF/graph.h	131;"	d
+MAKE_ODD	MRF/graph.h	128;"	d
+MAKE_ODD_REV	MRF/graph.h	130;"	d
+MAX	MRF/BP-S.cpp	18;"	d	file:
+MAX	MRF/TRW-S.cpp	18;"	d	file:
+MAXITER	mrfstereo/mrfstereo.cpp	58;"	d	file:
+MAX_INTT	MRF/GCoptimization.cpp	8;"	d	file:
+MIN	MRF/BP-S.cpp	17;"	d	file:
+MIN	MRF/TRW-S.cpp	17;"	d	file:
+MRF	MRF/mrf.cpp	/^MRF::MRF(int nPixels, int nLabels, EnergyFunction *e)$/;"	f	class:MRF
+MRF	MRF/mrf.cpp	/^MRF::MRF(int width, int height, int nLabels, EnergyFunction *e)$/;"	f	class:MRF
+MRF	MRF/mrf.h	/^class MRF$/;"	c
+MaxProdBP	MRF/MaxProdBP.cpp	/^MaxProdBP::MaxProdBP(int nPixels, int nLabels,EnergyFunction *eng):MRF(nPixels,nLabels,eng)$/;"	f	class:MaxProdBP
+MaxProdBP	MRF/MaxProdBP.cpp	/^MaxProdBP::MaxProdBP(int width, int height, int nLabels,EnergyFunction *eng):MRF(width,height,nLabels,eng)$/;"	f	class:MaxProdBP
+MaxProdBP	MRF/MaxProdBP.h	/^class MaxProdBP : public MRF{$/;"	c
+MaxVal	imageLib/Image.cpp	/^template <> float CImageOf<float>::MaxVal(void)     { return FLT_MAX; }$/;"	f	class:CImageOf
+MaxVal	imageLib/Image.cpp	/^template <> int   CImageOf<int  >::MaxVal(void)     { return 0x7fffffff; }$/;"	f	class:CImageOf
+MaxVal	imageLib/Image.cpp	/^template <> uchar CImageOf<uchar>::MaxVal(void)     { return 255; }$/;"	f	class:CImageOf
+Memory	imageLib/RefCntMem.cpp	/^void* CRefCntMem::Memory()$/;"	f	class:CRefCntMem
+MinVal	imageLib/Image.cpp	/^template <> float CImageOf<float>::MinVal(void)     { return -FLT_MAX; }$/;"	f	class:CImageOf
+MinVal	imageLib/Image.cpp	/^template <> int   CImageOf<int  >::MinVal(void)     { return 0x80000000; }$/;"	f	class:CImageOf
+MinVal	imageLib/Image.cpp	/^template <> uchar CImageOf<uchar>::MinVal(void)     { return 0; }$/;"	f	class:CImageOf
+NBytes	imageLib/RefCntMem.cpp	/^int CRefCntMem::NBytes()$/;"	f	class:CRefCntMem
+NEIGHBOR_NODE	MRF/graph.h	171;"	d
+NEIGHBOR_NODE_REV	MRF/graph.h	172;"	d
+NODEPTR_BLOCK_SIZE	MRF/graph.h	64;"	d
+NODE_BLOCK_SIZE	MRF/graph.h	62;"	d
+NONE	MRF/BP-S.h	/^	    NONE,$/;"	e	enum:BPS::__anon1
+NONE	MRF/MaxProdBP.h	/^      NONE,$/;"	e	enum:MaxProdBP::__anon7
+NONE	MRF/TRW-S.h	/^	    NONE,$/;"	e	enum:TRWS::__anon3
+NONE	MRF/mrf.h	/^            NONE$/;"	e	enum:MRF::__anon2
+Neighbor	MRF/GCoptimization.h	/^    } Neighbor;$/;"	t	class:GCoptimization	typeref:struct:GCoptimization::NeighborStruct
+Neighbor	MRF/ICM.h	/^    } Neighbor;$/;"	t	class:ICM	typeref:struct:ICM::NeighborStruct
+Neighbor	MRF/MaxProdBP.h	/^  } Neighbor;$/;"	t	class:MaxProdBP	typeref:struct:MaxProdBP::NeighborStruct
+NeighborStruct	MRF/GCoptimization.h	/^    typedef struct NeighborStruct{$/;"	s	class:GCoptimization
+NeighborStruct	MRF/ICM.h	/^    typedef struct NeighborStruct{$/;"	s	class:ICM
+NeighborStruct	MRF/MaxProdBP.h	/^  typedef struct NeighborStruct {$/;"	s	class:MaxProdBP
+New	MRF/block.h	/^    Type *New()$/;"	f	class:DBlock
+New	MRF/block.h	/^    Type *New(int num = 1)$/;"	f	class:Block
+OBJ	MRF/Makefile	/^OBJ = $(SRC:.cpp=.o)$/;"	m
+OBJ	imageLib/Makefile	/^OBJ = $(SRC:.cpp=.o)$/;"	m
+OBJ	mrfstereo/Makefile	/^OBJ = $(SRC:.cpp=.o)$/;"	m
+OPT	MRF/Makefile	/^OPT ?= -O3$/;"	m
+OPT	imageLib/Makefile	/^OPT ?= -O3$/;"	m
+ORPHAN	MRF/maxflow.cpp	28;"	d	file:
+OneNodeCluster	MRF/regions-maxprod.cpp	/^OneNodeCluster::OneNodeCluster()$/;"	f	class:OneNodeCluster
+OneNodeCluster	MRF/regions-new.h	/^class OneNodeCluster$/;"	c
+PASS_AS_PARAMETER	MRF/GCoptimization.h	38;"	d
+PTR_CAST	MRF/graph.h	48;"	d
+PTR_CAST	MRF/graph.h	50;"	d
+PixType	imageLib/Image.h	/^    const type_info& PixType(void)  { return *m_pTI; }$/;"	f	class:CImage
+Pixel	imageLib/Image.h	/^inline T& CImageOf<T>::Pixel(int x, int y, int band)$/;"	f	class:CImageOf
+PixelAddress	imageLib/Image.h	/^inline void* CImage::PixelAddress(int x, int y, int band)$/;"	f	class:CImage
+PixelType	MRF/GCoptimization.h	/^    typedef int PixelType;$/;"	t	class:GCoptimization
+R	imageLib/Image.h	/^    PixType B, G, R, A;     \/\/ A channel is highest one$/;"	m	struct:RGBA
+REAL	MRF/BP-S.h	/^    typedef CostVal REAL;$/;"	t	class:BPS
+REAL	MRF/TRW-S.h	/^    typedef double REAL;$/;"	t	class:TRWS
+REAL	MRF/typeTruncatedQuadratic2D.h	/^    typedef double REAL;$/;"	t	struct:TypeTruncatedQuadratic2D
+RGBA	imageLib/Image.h	/^struct RGBA$/;"	s
+RIGHT	MRF/regions-maxprod.cpp	15;"	d	file:
+RIGHT	MRF/regions-new.h	10;"	d
+ReAllocate	imageLib/Image.cpp	/^void CImage::ReAllocate(CShape s, const type_info& ti, int bandSize,$/;"	f	class:CImage
+ReAllocate	imageLib/Image.h	/^inline void CImageOf<T>::ReAllocate(CShape s, T *memory,$/;"	f	class:CImageOf
+ReAllocate	imageLib/Image.h	/^inline void CImageOf<T>::ReAllocate(CShape s, bool evenIfSameShape)$/;"	f	class:CImageOf
+ReAllocate	imageLib/RefCntMem.cpp	/^void CRefCntMem::ReAllocate(int nBytes, void *memory, bool deleteWhenDone,$/;"	f	class:CRefCntMem
+ReadFilePGM	imageLib/ImageIO.cpp	/^void ReadFilePGM(CByteImage& img, const char* filename)$/;"	f
+ReadFilePNG	imageLib/ImageIOpng.cpp	/^void ReadFilePNG(CByteImage& img, const char* filename)$/;"	f
+ReadFileTGA	imageLib/ImageIO.cpp	/^void ReadFileTGA(CByteImage& img, const char* filename)$/;"	f
+ReadImage	imageLib/ImageIO.cpp	/^void ReadImage (CImage& img, const char* filename)$/;"	f
+ReadImageVerb	imageLib/ImageIO.cpp	/^void ReadImageVerb(CImage& img, const char* filename, int verbose) {$/;"	f
+Reset	MRF/block.h	/^    void Reset()$/;"	f	class:Block
+SINK	MRF/graph.h	/^        SINK    = 1$/;"	e	enum:Graph::__anon4
+SOURCE	MRF/graph.h	/^        SOURCE  = 0,$/;"	e	enum:Graph::__anon4
+SRC	MRF/Makefile	/^SRC =  mrf.cpp ICM.cpp GCoptimization.cpp graph.cpp maxflow.cpp \\$/;"	m
+SRC	imageLib/Makefile	/^SRC = Convert.cpp Convolve.cpp Image.cpp ImageIO.cpp ImageIOpng.cpp RefCntMem.cpp$/;"	m
+SRC	mrfstereo/Makefile	/^SRC = mrfstereo.cpp$/;"	m
+SameIgnoringNBands	imageLib/Image.cpp	/^bool CShape::SameIgnoringNBands(const CShape& ref)$/;"	f	class:CShape
+ScaleAndOffset	imageLib/Convert.cpp	/^extern void ScaleAndOffset(CImageOf<T1>& src, CImageOf<T2>& dst, float scale, float offset)$/;"	f
+ScaleAndOffsetLine	imageLib/Convert.cpp	/^extern void ScaleAndOffsetLine(T1* src, T2* dst, int n,$/;"	f
+ScanFirst	MRF/block.h	/^    Type *ScanFirst()$/;"	f	class:Block
+ScanNext	MRF/block.h	/^    Type *ScanNext()$/;"	f	class:Block
+SetDefaults	imageLib/Image.cpp	/^void CImage::SetDefaults()$/;"	f	class:CImage
+SetPixels	imageLib/Image.cpp	/^void CImage::SetPixels(void *val_ptr)$/;"	f	class:CImage
+SetSubImage	imageLib/Image.cpp	/^void CImage::SetSubImage(int x, int y, int width, int height)$/;"	f	class:CImage
+Shape	imageLib/Image.h	/^    CShape Shape(void)              { return m_shape; }$/;"	f	class:CImage
+SmoothCostGeneralFn	MRF/mrf.h	/^    typedef CostVal (*SmoothCostGeneralFn)(int pix1, int pix2,  Label l1, Label l2); $/;"	t	class:MRF
+SmoothnessCost	MRF/mrf.h	/^    SmoothnessCost(CostVal *V){m_V = V;m_type = MRF::ARRAY;m_varWeights=false;};$/;"	f	class:SmoothnessCost
+SmoothnessCost	MRF/mrf.h	/^    SmoothnessCost(CostVal *V,CostVal *hWeights, CostVal *vWeights )$/;"	f	class:SmoothnessCost
+SmoothnessCost	MRF/mrf.h	/^    SmoothnessCost(MRF::SmoothCostGeneralFn costFn){m_costFn = costFn;m_type = MRF::FUNCTION;m_varWeights=false;};$/;"	f	class:SmoothnessCost
+SmoothnessCost	MRF/mrf.h	/^    SmoothnessCost(int smoothExp,CostVal smoothMax,CostVal lambda)$/;"	f	class:SmoothnessCost
+SmoothnessCost	MRF/mrf.h	/^    SmoothnessCost(int smoothExp,CostVal smoothMax,CostVal lambda,CostVal *hWeights, CostVal *vWeights)$/;"	f	class:SmoothnessCost
+SmoothnessCost	MRF/mrf.h	/^class SmoothnessCost$/;"	c
+SubImage	imageLib/Image.h	/^inline CImageOf<T> CImageOf<T>::SubImage(int x, int y, int width, int height)$/;"	f	class:CImageOf
+SubtractMin	MRF/BP-S.cpp	/^inline BPS::REAL SubtractMin(BPS::REAL *D, int K)$/;"	f
+SubtractMin	MRF/TRW-S.cpp	/^inline TRWS::REAL SubtractMin(TRWS::REAL *D, int K)$/;"	f
+Swap	MRF/GCoptimization.cpp	/^Swap::Swap(PixelType nPixels, int num_labels, EnergyFunction *eng):GCoptimization(nPixels,num_labels,eng)$/;"	f	class:Swap
+Swap	MRF/GCoptimization.cpp	/^Swap::Swap(PixelType width,PixelType height,int num_labels, EnergyFunction *eng):GCoptimization(width,height,num_labels,eng)$/;"	f	class:Swap
+Swap	MRF/GCoptimization.h	/^class Swap: public GCoptimization$/;"	c
+TERMINAL	MRF/maxflow.cpp	27;"	d	file:
+THREE_PARAM	MRF/mrf.h	/^            THREE_PARAM,$/;"	e	enum:MRF::__anon2
+TIME	MRF/graph.h	/^    int                 TIME;                               \/* monotonically increasing global counter *\/$/;"	m	class:Graph
+TRUNCATE	MRF/BP-S.cpp	21;"	d	file:
+TRUNCATE	MRF/TRW-S.cpp	21;"	d	file:
+TRUNCATE_MAX	MRF/BP-S.cpp	20;"	d	file:
+TRUNCATE_MAX	MRF/TRW-S.cpp	20;"	d	file:
+TRUNCATE_MIN	MRF/BP-S.cpp	19;"	d	file:
+TRUNCATE_MIN	MRF/TRW-S.cpp	19;"	d	file:
+TRWS	MRF/TRW-S.cpp	/^TRWS::TRWS(int nPixels, int nLabels,EnergyFunction *eng):MRF(nPixels,nLabels,eng)$/;"	f	class:TRWS
+TRWS	MRF/TRW-S.cpp	/^TRWS::TRWS(int width, int height, int nLabels,EnergyFunction *eng):MRF(width,height,nLabels,eng)$/;"	f	class:TRWS
+TRWS	MRF/TRW-S.h	/^class TRWS : public MRF{$/;"	c
+TS	MRF/graph.h	/^        int             TS;         \/* timestamp showing when DIST was computed *\/$/;"	m	struct:Graph::node_st
+TargaAttrBits	imageLib/ImageIO.cpp	/^const int TargaAttrBits     = 15;$/;"	v
+TargaCMapBands	imageLib/ImageIO.cpp	/^const int TargaCMapBands    = 3;$/;"	v
+TargaCMapSize	imageLib/ImageIO.cpp	/^const int TargaCMapSize		= 256;$/;"	v
+TargaRawBW	imageLib/ImageIO.cpp	/^const int TargaRawBW		= 3;$/;"	v
+TargaRawColormap	imageLib/ImageIO.cpp	/^const int TargaRawColormap	= 1;$/;"	v
+TargaRawRGB	imageLib/ImageIO.cpp	/^const int TargaRawRGB		= 2;$/;"	v
+TargaRunBW	imageLib/ImageIO.cpp	/^const int TargaRunBW		= 11;$/;"	v
+TargaRunColormap	imageLib/ImageIO.cpp	/^const int TargaRunColormap	= 9;$/;"	v
+TargaRunRGB	imageLib/ImageIO.cpp	/^const int TargaRunRGB		= 10;$/;"	v
+TargaScreenOrigin	imageLib/ImageIO.cpp	/^const int TargaScreenOrigin = (1<<5);$/;"	v
+TotalValue	MRF/energy.h	/^    typedef flowtype TotalValue;$/;"	t	class:Energy
+TrimIndex	imageLib/Convolve.cpp	/^static int TrimIndex(int k, EBorderMode e, int n)$/;"	f	file:
+TypeTruncatedQuadratic2D	MRF/typeTruncatedQuadratic2D.h	/^struct TypeTruncatedQuadratic2D$/;"	s
+UP	MRF/regions-maxprod.cpp	12;"	d	file:
+UP	MRF/regions-new.h	7;"	d
+USE_MEMBER_FUNCTION	MRF/GCoptimization.h	37;"	d
+UpdateMessageFIXED_MATRIX	MRF/BP-S.cpp	/^inline BPS::REAL UpdateMessageFIXED_MATRIX(BPS::REAL* M, BPS::REAL* Di_hat, int K, BPS::REAL gamma, MRF::CostVal lambda, MRF::CostVal* V, void* buf)$/;"	f
+UpdateMessageFIXED_MATRIX	MRF/TRW-S.cpp	/^inline TRWS::REAL UpdateMessageFIXED_MATRIX(TRWS::REAL* M, TRWS::REAL* Di_hat, int K, TRWS::REAL gamma, MRF::CostVal lambda, MRF::CostVal* V, void* buf)$/;"	f
+UpdateMessageGENERAL	MRF/BP-S.cpp	/^inline BPS::REAL UpdateMessageGENERAL(BPS::REAL* M, BPS::REAL* Di_hat, int K, BPS::REAL gamma, BPS::SmoothCostGeneralFn fn, int i, int j, void* buf)$/;"	f
+UpdateMessageGENERAL	MRF/BP-S.cpp	/^inline BPS::REAL UpdateMessageGENERAL(BPS::REAL* M, BPS::REAL* Di_hat, int K, BPS::REAL gamma, int dir, MRF::CostVal* V, void* buf)$/;"	f
+UpdateMessageGENERAL	MRF/TRW-S.cpp	/^inline TRWS::REAL UpdateMessageGENERAL(TRWS::REAL* M, TRWS::REAL* Di_hat, int K, TRWS::REAL gamma, TRWS::SmoothCostGeneralFn fn, int i, int j, void* buf)$/;"	f
+UpdateMessageGENERAL	MRF/TRW-S.cpp	/^inline TRWS::REAL UpdateMessageGENERAL(TRWS::REAL* M, TRWS::REAL* Di_hat, int K, TRWS::REAL gamma, int dir, MRF::CostVal* V, void* buf)$/;"	f
+UpdateMessageL1	MRF/BP-S.cpp	/^inline BPS::REAL UpdateMessageL1(BPS::REAL* M, BPS::REAL* Di_hat, int K, BPS::REAL gamma, MRF::CostVal lambda, MRF::CostVal smoothMax)$/;"	f
+UpdateMessageL1	MRF/TRW-S.cpp	/^inline TRWS::REAL UpdateMessageL1(TRWS::REAL* M, TRWS::REAL* Di_hat, int K, TRWS::REAL gamma, MRF::CostVal lambda, MRF::CostVal smoothMax)$/;"	f
+UpdateMessageL2	MRF/BP-S.cpp	/^inline BPS::REAL UpdateMessageL2(BPS::REAL* M, BPS::REAL* Di_hat, int K, BPS::REAL gamma, MRF::CostVal lambda, MRF::CostVal smoothMax, void *buf)$/;"	f
+UpdateMessageL2	MRF/TRW-S.cpp	/^inline TRWS::REAL UpdateMessageL2(TRWS::REAL* M, TRWS::REAL* Di_hat, int K, TRWS::REAL gamma, MRF::CostVal lambda, MRF::CostVal smoothMax, void *buf)$/;"	f
+V	MRF/example.cpp	/^MRF::CostVal V[numLabels*numLabels];$/;"	v
+VERSION	MRF/Makefile	/^VERSION = MRF2.2$/;"	m
+Value	MRF/energy.h	/^    typedef captype Value;$/;"	t	class:Energy
+Var	MRF/energy.h	/^    typedef node_id Var;$/;"	t	class:Energy
+WARN	MRF/Makefile	/^WARN = -W -Wall$/;"	m
+WARN	imageLib/Makefile	/^WARN = -W -Wall$/;"	m
+WTA	mrfstereo/mrfstereo.cpp	/^void WTA(MRF::CostVal *dsi, int width, int height, int nD, CByteImage &disp)$/;"	f
+WriteFilePGM	imageLib/ImageIO.cpp	/^void WriteFilePGM(CByteImage img, const char* filename)$/;"	f
+WriteFilePNG	imageLib/ImageIOpng.cpp	/^void WriteFilePNG(CByteImage img, const char* filename)$/;"	f
+WriteFileTGA	imageLib/ImageIO.cpp	/^void WriteFileTGA(CImage img, const char* filename)$/;"	f
+WriteImage	imageLib/ImageIO.cpp	/^void WriteImage(CImage& img, const char* filename)$/;"	f
+WriteImageVerb	imageLib/ImageIO.cpp	/^void WriteImageVerb(CImage& img, const char* filename, int verbose) {$/;"	f
+XGETOPT_H	mrfstereo/XGetopt.h	22;"	d
+__AJALSOQJAJSDFASD_H__	MRF/typeTruncatedQuadratic2D.h	2;"	d
+__BLOCK_H__	MRF/block.h	110;"	d
+__BPS_H__	MRF/BP-S.h	2;"	d
+__ENERGY_H__	MRF/energy.h	111;"	d
+__GCOPTIMIZATION_H__	MRF/GCoptimization.h	29;"	d
+__GRAPH_H__	MRF/graph.h	45;"	d
+__ICM_H__	MRF/ICM.h	2;"	d
+__LINKEDBLOCKLIST_H__	MRF/LinkedBlockList.h	10;"	d
+__MAXPRODBP_H__	MRF/MaxProdBP.h	2;"	d
+__MRF_H__	MRF/mrf.h	6;"	d
+__TRWS_H__	MRF/TRW-S.h	2;"	d
+_reg_h	MRF/regions-new.h	4;"	d
+aBPM	mrfstereo/mrfstereo.cpp	/^enum algtypes {aICM, aExpansion, aSwap, aTRWS, aBPS, aBPM};$/;"	e	enum:algtypes	file:
+aBPS	mrfstereo/mrfstereo.cpp	/^enum algtypes {aICM, aExpansion, aSwap, aTRWS, aBPS, aBPM};$/;"	e	enum:algtypes	file:
+aExpansion	mrfstereo/mrfstereo.cpp	/^enum algtypes {aICM, aExpansion, aSwap, aTRWS, aBPS, aBPM};$/;"	e	enum:algtypes	file:
+aICM	mrfstereo/mrfstereo.cpp	/^enum algtypes {aICM, aExpansion, aSwap, aTRWS, aBPS, aBPM};$/;"	e	enum:algtypes	file:
+aSwap	mrfstereo/mrfstereo.cpp	/^enum algtypes {aICM, aExpansion, aSwap, aTRWS, aBPS, aBPM};$/;"	e	enum:algtypes	file:
+aTRWS	mrfstereo/mrfstereo.cpp	/^enum algtypes {aICM, aExpansion, aSwap, aTRWS, aBPS, aBPM};$/;"	e	enum:algtypes	file:
+addFront	MRF/LinkedBlockList.cpp	/^void LinkedBlockList::addFront(ListType item) {$/;"	f	class:LinkedBlockList
+add_constant	MRF/energy.h	/^inline void Energy::add_constant(Value A) { Econst += A; }$/;"	f	class:Energy
+add_edge	MRF/graph.cpp	/^void Graph::add_edge(node_id from, node_id to, captype cap, captype rev_cap)$/;"	f	class:Graph
+add_node	MRF/graph.cpp	/^Graph::node_id Graph::add_node()$/;"	f	class:Graph
+add_t_links_ARRAY	MRF/GCoptimization.cpp	/^void GCoptimization::add_t_links_ARRAY(Energy *e,Energy::Var *variables,int size,LabelType alpha_label)$/;"	f	class:GCoptimization
+add_t_links_ARRAY_swap	MRF/GCoptimization.cpp	/^void Swap::add_t_links_ARRAY_swap(Energy *e,Energy::Var *variables,int size,$/;"	f	class:Swap
+add_t_links_FnPix	MRF/GCoptimization.cpp	/^void GCoptimization::add_t_links_FnPix(Energy *e,Energy::Var *variables,int size,LabelType alpha_label)$/;"	f	class:GCoptimization
+add_t_links_FnPix_swap	MRF/GCoptimization.cpp	/^void Swap::add_t_links_FnPix_swap(Energy *e,Energy::Var *variables,int size,$/;"	f	class:Swap
+add_term1	MRF/energy.h	/^inline void Energy::add_term1(Var x,$/;"	f	class:Energy
+add_term2	MRF/energy.h	/^inline void Energy::add_term2(Var x, Var y,$/;"	f	class:Energy
+add_term3	MRF/energy.h	/^inline void Energy::add_term3(Var x, Var y, Var z,$/;"	f	class:Energy
+add_tweights	MRF/graph.cpp	/^void Graph::add_tweights(node_id i, captype cap_source, captype cap_sink)$/;"	f	class:Graph
+add_variable	MRF/energy.h	/^inline Energy::Var Energy::add_variable() { return add_node(); }$/;"	f	class:Energy
+algs	mrfstereo/mrfstereo.cpp	/^const char *algs[] = {"ICM", "Expansion", "Swap", "TRW-S", "BP-S", "BP-M"};$/;"	v
+algtypes	mrfstereo/mrfstereo.cpp	/^enum algtypes {aICM, aExpansion, aSwap, aTRWS, aBPS, aBPM};$/;"	g	file:
+alphaChannel	imageLib/Image.h	/^    int alphaChannel;       \/\/ which channel contains alpha (for compositing)$/;"	m	class:CImage
+alphaChannel	imageLib/Image.h	/^    int alphaChannel;       \/\/ which channel contains alpha (for compositing)$/;"	m	struct:CImageAttributes
+alpha_beta_swap	MRF/GCoptimization.cpp	/^GCoptimization::EnergyType Swap::alpha_beta_swap(LabelType alpha_label, LabelType beta_label)$/;"	f	class:Swap
+alpha_expansion	MRF/GCoptimization.cpp	/^GCoptimization::EnergyType Expansion::alpha_expansion(LabelType label)$/;"	f	class:Expansion
+arc_for_block	MRF/graph.h	/^    } arc_for_block;$/;"	t	class:Graph	typeref:struct:Graph::arc_for_block_st
+arc_for_block_first	MRF/graph.h	/^    arc_for_block       *arc_for_block_first;$/;"	m	class:Graph
+arc_for_block_st	MRF/graph.h	/^    typedef struct arc_for_block_st$/;"	s	class:Graph
+arc_forward	MRF/graph.h	/^    } arc_forward;$/;"	t	class:Graph	typeref:struct:Graph::arc_forward_st
+arc_forward_st	MRF/graph.h	/^    typedef struct arc_forward_st$/;"	s	class:Graph
+arc_rev_block	MRF/graph.h	/^    } arc_rev_block;$/;"	t	class:Graph	typeref:struct:Graph::arc_rev_block_st
+arc_rev_block_first	MRF/graph.h	/^    arc_rev_block       *arc_rev_block_first;$/;"	m	class:Graph
+arc_rev_block_st	MRF/graph.h	/^    typedef struct arc_rev_block_st$/;"	s	class:Graph
+arc_reverse	MRF/graph.h	/^    } arc_reverse;$/;"	t	class:Graph	typeref:struct:Graph::arc_reverse_st
+arc_reverse_st	MRF/graph.h	/^    typedef struct arc_reverse_st$/;"	s	class:Graph
+arcs_for	MRF/graph.h	/^        arc_forward             arcs_for[ARC_BLOCK_SIZE]; \/* all arcs must be at even addresses *\/$/;"	m	struct:Graph::arc_for_block_st
+arcs_rev	MRF/graph.h	/^        arc_reverse             arcs_rev[ARC_BLOCK_SIZE]; \/* all arcs must be at even addresses *\/$/;"	m	struct:Graph::arc_rev_block_st
+augment	MRF/maxflow.cpp	/^void Graph::augment(node *s_start, node *t_start, captype *cap_middle, captype *rev_cap_middle)$/;"	f	class:Graph
+block	MRF/block.h	/^    } block;$/;"	t	class:Block	typeref:struct:Block::block_st
+block	MRF/block.h	/^    } block;$/;"	t	class:DBlock	typeref:struct:DBlock::block_st
+block_item	MRF/block.h	/^    } block_item;$/;"	t	class:DBlock	typeref:union:DBlock::block_item_st
+block_item_st	MRF/block.h	/^    typedef union block_item_st$/;"	u	class:DBlock
+block_size	MRF/block.h	/^    int         block_size;$/;"	m	class:DBlock
+block_size	MRF/block.h	/^    int     block_size;$/;"	m	class:Block
+block_st	MRF/block.h	/^    typedef struct block_st$/;"	s	class:Block
+block_st	MRF/block.h	/^    typedef struct block_st$/;"	s	class:DBlock
+borderMode	imageLib/Image.h	/^    EBorderMode borderMode; \/\/ border behavior for neighborhood operations...$/;"	m	struct:CImageAttributes
+cMapBits	imageLib/ImageIO.cpp	/^    uchar cMapBits;     \/\/ color map entry size$/;"	m	struct:CTargaHead	file:
+cMapLength	imageLib/ImageIO.cpp	/^    uchar cMapLength[2];\/\/ color map length$/;"	m	struct:CTargaHead	file:
+cMapOrigin	imageLib/ImageIO.cpp	/^    uchar cMapOrigin[2];\/\/ color map origin$/;"	m	struct:CTargaHead	file:
+captype	MRF/graph.h	/^    typedef MRF::CostVal captype;$/;"	t	class:Graph
+checkArray	MRF/mrf.cpp	/^void MRF::checkArray(CostVal *V)$/;"	f	class:MRF
+checkEnergy	MRF/mrf.cpp	/^char MRF::checkEnergy()$/;"	f	class:MRF
+clearAnswer	MRF/BP-S.cpp	/^void BPS::clearAnswer()$/;"	f	class:BPS
+clearAnswer	MRF/GCoptimization.cpp	/^void GCoptimization::clearAnswer()$/;"	f	class:GCoptimization
+clearAnswer	MRF/ICM.cpp	/^void ICM::clearAnswer()$/;"	f	class:ICM
+clearAnswer	MRF/MaxProdBP.cpp	/^void MaxProdBP::clearAnswer()$/;"	f	class:MaxProdBP
+clearAnswer	MRF/TRW-S.cpp	/^void TRWS::clearAnswer()$/;"	f	class:TRWS
+colorMapType	imageLib/ImageIO.cpp	/^    uchar colorMapType;	\/\/ color map type$/;"	m	struct:CTargaHead	file:
+commonGridInitialization	MRF/GCoptimization.cpp	/^void GCoptimization::commonGridInitialization(PixelType width, PixelType height, int nLabels)$/;"	f	class:GCoptimization
+commonInitialization	MRF/GCoptimization.cpp	/^void GCoptimization::commonInitialization()$/;"	f	class:GCoptimization
+commonInitialization	MRF/mrf.cpp	/^void MRF::commonInitialization(EnergyFunction *e)$/;"	f	class:MRF
+commonNonGridInitialization	MRF/GCoptimization.cpp	/^void GCoptimization::commonNonGridInitialization(PixelType nupixels, int num_labels)$/;"	f	class:GCoptimization
+computeCues	mrfstereo/mrfstereo.cpp	/^void computeCues(CByteImage im1, MRF::CostVal *&hCue, MRF::CostVal *&vCue,$/;"	f
+computeDSI	mrfstereo/mrfstereo.cpp	/^void computeDSI(CByteImage im1,       \/\/ source (reference) image$/;"	f
+computeMessagesLeftRight	MRF/regions-maxprod.cpp	/^void computeMessagesLeftRight(OneNodeCluster *nodeArray, const int numCols, const int \/*numRows*\/, const int currRow, const FLOATTYPE alpha, MaxProdBP *mrf)$/;"	f
+computeMessagesUpDown	MRF/regions-maxprod.cpp	/^void computeMessagesUpDown(OneNodeCluster *nodeArray, const int numCols, const int numRows, const int currCol, const FLOATTYPE alpha, MaxProdBP *mrf)$/;"	f
+current	MRF/block.h	/^        Type                    *current, *last;$/;"	m	struct:Block::block_st
+current	MRF/graph.h	/^        arc_forward             *current;$/;"	m	struct:Graph::arc_for_block_st
+current	MRF/graph.h	/^        arc_reverse             *current;$/;"	m	struct:Graph::arc_rev_block_st
+current	MRF/graph.h	/^        node                    *current;$/;"	m	struct:Graph::node_block_st
+dCost	MRF/example.cpp	/^MRF::CostVal dCost(int pix, int i)$/;"	f
+data	MRF/block.h	/^        Type                    data[1];$/;"	m	struct:Block::block_st
+data	MRF/block.h	/^        block_item              data[1];$/;"	m	struct:DBlock::block_st
+dataEnergy	MRF/BP-S.cpp	/^MRF::EnergyVal BPS::dataEnergy()$/;"	f	class:BPS
+dataEnergy	MRF/GCoptimization.cpp	/^GCoptimization::EnergyType GCoptimization::dataEnergy()$/;"	f	class:GCoptimization
+dataEnergy	MRF/ICM.cpp	/^MRF::EnergyVal ICM::dataEnergy()$/;"	f	class:ICM
+dataEnergy	MRF/MaxProdBP.cpp	/^MRF::EnergyVal MaxProdBP::dataEnergy()$/;"	f	class:MaxProdBP
+dataEnergy	MRF/TRW-S.cpp	/^MRF::EnergyVal TRWS::dataEnergy()$/;"	f	class:TRWS
+debugfile	mrfstereo/mrfstereo.cpp	/^FILE *debugfile;$/;"	v
+descriptor	imageLib/ImageIO.cpp	/^    uchar descriptor;   \/\/ image descriptor byte$/;"	m	struct:CTargaHead	file:
+dontCacheSmoothnessCosts	MRF/TRW-S.h	/^    void dontCacheSmoothnessCosts() {m_allocateArrayForSmoothnessCostFn = false;}$/;"	f	class:TRWS
+dontCacheSmoothnessCosts	MRF/mrf.h	/^    void dontCacheSmoothnessCosts() {m_allocateArrayForSmoothnessCostFn = false;}$/;"	f	class:MRF
+dummy	MRF/graph.h	/^            arc_forward         dummy;$/;"	m	union:Graph::arc_for_block_st::__anon5
+dummy	MRF/graph.h	/^            arc_reverse         dummy;$/;"	m	union:Graph::arc_rev_block_st::__anon6
+eBorderCyclic	imageLib/Image.h	/^    eBorderCyclic       = 3     \/\/ wrap pixel values$/;"	e	enum:EBorderMode
+eBorderReflect	imageLib/Image.h	/^    eBorderReflect      = 2,    \/\/ reflect border pixels$/;"	e	enum:EBorderMode
+eBorderReplicate	imageLib/Image.h	/^    eBorderReplicate    = 1,    \/\/ replicate border values$/;"	e	enum:EBorderMode
+eBorderZero	imageLib/Image.h	/^    eBorderZero         = 0,    \/\/ zero padding$/;"	e	enum:EBorderMode
+error_function	MRF/block.h	/^    void    (*error_function)(const char *);$/;"	m	class:Block
+error_function	MRF/block.h	/^    void    (*error_function)(const char *);$/;"	m	class:DBlock
+error_function	MRF/energy.h	/^    void        (*error_function)(const char *);  \/* this function is called if a error occurs,$/;"	m	class:Energy
+error_function	MRF/graph.h	/^    void    (*error_function)(const char *);  \/* this function is called if a error occurs,$/;"	m	class:Graph
+expansion	MRF/GCoptimization.cpp	/^GCoptimization::EnergyType Expansion::expansion()$/;"	f	class:Expansion
+expansion	MRF/GCoptimization.cpp	/^GCoptimization::EnergyType Expansion::expansion(int max_num_iterations)$/;"	f	class:Expansion
+first	MRF/block.h	/^    block       *first;$/;"	m	class:DBlock
+first	MRF/block.h	/^    block   *first;$/;"	m	class:Block
+first_free	MRF/block.h	/^    block_item  *first_free;$/;"	m	class:DBlock
+first_in	MRF/graph.h	/^        arc_reverse_st  *first_in;  \/* first incoming arc *\/$/;"	m	struct:Graph::node_st
+first_out	MRF/graph.h	/^        arc_forward_st  *first_out; \/* first outcoming arc *\/$/;"	m	struct:Graph::node_st
+flow	MRF/graph.h	/^    flowtype            flow;       \/* total flow *\/$/;"	m	class:Graph
+flowtype	MRF/graph.h	/^    typedef MRF::EnergyVal flowtype;$/;"	t	class:Graph
+fnCost	MRF/example.cpp	/^MRF::CostVal fnCost(int pix1, int pix2, int i, int j)$/;"	f
+generate_DataARRAY_SmoothFIXED_FUNCTION	MRF/example.cpp	/^EnergyFunction* generate_DataARRAY_SmoothFIXED_FUNCTION()$/;"	f
+generate_DataARRAY_SmoothTRUNCATED_LINEAR	MRF/example.cpp	/^EnergyFunction* generate_DataARRAY_SmoothTRUNCATED_LINEAR()$/;"	f
+generate_DataARRAY_SmoothTRUNCATED_QUADRATIC	MRF/example.cpp	/^EnergyFunction* generate_DataARRAY_SmoothTRUNCATED_QUADRATIC()$/;"	f
+generate_DataFUNCTION_SmoothGENERAL_FUNCTION	MRF/example.cpp	/^EnergyFunction* generate_DataFUNCTION_SmoothGENERAL_FUNCTION()$/;"	f
+getAnswerPtr	MRF/BP-S.h	/^    Label* getAnswerPtr(){return(m_answer);};$/;"	f	class:BPS
+getAnswerPtr	MRF/GCoptimization.h	/^    Label* getAnswerPtr(){return(m_labeling);}$/;"	f	class:GCoptimization
+getAnswerPtr	MRF/ICM.h	/^    Label* getAnswerPtr(){return(m_answer);};$/;"	f	class:ICM
+getAnswerPtr	MRF/MaxProdBP.h	/^	Label* getAnswerPtr(){return(m_answer);};$/;"	f	class:MaxProdBP
+getAnswerPtr	MRF/TRW-S.h	/^    Label* getAnswerPtr(){return(m_answer);};$/;"	f	class:TRWS
+getBelief	MRF/regions-maxprod.cpp	/^void OneNodeCluster::getBelief(FLOATTYPE *beliefVec)$/;"	f	class:OneNodeCluster
+getBeliefMaxInd	MRF/regions-maxprod.cpp	/^int OneNodeCluster::getBeliefMaxInd()$/;"	f	class:OneNodeCluster
+getBytes	imageLib/ImageIO.cpp	/^inline uchar* CTargaRLC::getBytes(int nBytes, FILE *stream)$/;"	f	class:CTargaRLC
+getDisparities	mrfstereo/mrfstereo.cpp	/^void getDisparities(MRF *mrf, int width, int height, CByteImage &disp)$/;"	f
+getEnergyFunction	MRF/MaxProdBP.cpp	/^EnergyFunction *MaxProdBP::getEnergyFunction()$/;"	f	class:MaxProdBP
+getExpV	MRF/MaxProdBP.cpp	/^FLOATTYPE *MaxProdBP::getExpV()$/;"	f	class:MaxProdBP
+getExpV	MRF/MaxProdBP.cpp	/^FLOATTYPE MaxProdBP::getExpV(int i)$/;"	f	class:MaxProdBP
+getHeight	MRF/MaxProdBP.cpp	/^int MaxProdBP::getHeight()$/;"	f	class:MaxProdBP
+getHorizWeight	MRF/MaxProdBP.cpp	/^MRF::CostVal MaxProdBP::getHorizWeight(int r, int c)$/;"	f	class:MaxProdBP
+getLabel	MRF/BP-S.h	/^    Label getLabel(int pixel){return(m_answer[pixel]);};$/;"	f	class:BPS
+getLabel	MRF/GCoptimization.h	/^    inline LabelType getLabel(PixelType pixel){assert(pixel >= 0 && pixel < m_nPixels);return(m_labeling[pixel]);};$/;"	f	class:GCoptimization
+getLabel	MRF/ICM.h	/^    Label getLabel(int pixel){return(m_answer[pixel]);};$/;"	f	class:ICM
+getLabel	MRF/MaxProdBP.h	/^	Label getLabel(int pixel){return(m_answer[pixel]);};$/;"	f	class:MaxProdBP
+getLabel	MRF/TRW-S.h	/^    Label getLabel(int pixel){return(m_answer[pixel]);};$/;"	f	class:TRWS
+getNLabels	MRF/MaxProdBP.cpp	/^int MaxProdBP::getNLabels()$/;"	f	class:MaxProdBP
+getPsiMat	MRF/regions-maxprod.cpp	/^void getPsiMat(OneNodeCluster &\/*cluster*\/, FLOATTYPE *&destMatrix, $/;"	f
+getScratchMatrix	MRF/MaxProdBP.cpp	/^FLOATTYPE *MaxProdBP::getScratchMatrix()$/;"	f	class:MaxProdBP
+getSmoothType	MRF/MaxProdBP.cpp	/^MRF::InputType MaxProdBP::getSmoothType()$/;"	f	class:MaxProdBP
+getVarWeight	MRF/regions-maxprod.cpp	/^void getVarWeight(OneNodeCluster &\/*cluster*\/,  int r, int c, MaxProdBP *mrf, int direction, FLOATTYPE &var_weight)$/;"	f
+getVertWeight	MRF/MaxProdBP.cpp	/^MRF::CostVal MaxProdBP::getVertWeight(int r, int c)$/;"	f	class:MaxProdBP
+getWidth	MRF/MaxProdBP.cpp	/^int MaxProdBP::getWidth()$/;"	f	class:MaxProdBP
+get_var	MRF/energy.h	/^inline int Energy::get_var(Var x) { return (int)what_segment(x); }$/;"	f	class:Energy
+getopt	mrfstereo/XGetopt.cpp	/^int getopt(int argc, char *argv[], char *optstring)$/;"	f
+giveDataEnergyArray	MRF/GCoptimization.cpp	/^GCoptimization::EnergyType GCoptimization::giveDataEnergyArray()$/;"	f	class:GCoptimization
+giveDataEnergyFnPix	MRF/GCoptimization.cpp	/^GCoptimization::EnergyType GCoptimization::giveDataEnergyFnPix()$/;"	f	class:GCoptimization
+giveSmoothEnergy_G_ARRAY	MRF/GCoptimization.cpp	/^GCoptimization::EnergyType GCoptimization::giveSmoothEnergy_G_ARRAY()$/;"	f	class:GCoptimization
+giveSmoothEnergy_G_ARRAY_VW	MRF/GCoptimization.cpp	/^GCoptimization::EnergyType GCoptimization::giveSmoothEnergy_G_ARRAY_VW()$/;"	f	class:GCoptimization
+giveSmoothEnergy_G_FnPix	MRF/GCoptimization.cpp	/^GCoptimization::EnergyType GCoptimization::giveSmoothEnergy_G_FnPix()$/;"	f	class:GCoptimization
+giveSmoothEnergy_NG_ARRAY	MRF/GCoptimization.cpp	/^GCoptimization::EnergyType GCoptimization::giveSmoothEnergy_NG_ARRAY()$/;"	f	class:GCoptimization
+giveSmoothEnergy_NG_FnPix	MRF/GCoptimization.cpp	/^GCoptimization::EnergyType GCoptimization::giveSmoothEnergy_NG_FnPix()$/;"	f	class:GCoptimization
+hCue	MRF/example.cpp	/^MRF::CostVal hCue[sizeX*sizeY];$/;"	v
+hasNext	MRF/LinkedBlockList.cpp	/^bool LinkedBlockList::hasNext()$/;"	f	class:LinkedBlockList
+height	imageLib/Image.h	/^    int width, height;      \/\/ width and height in pixels$/;"	m	struct:CShape
+height	imageLib/ImageIO.cpp	/^    short height;		\/\/ height of image$/;"	m	struct:CTargaHead	file:
+idLength	imageLib/ImageIO.cpp	/^    uchar idLength;     \/\/ number of chars in identification field$/;"	m	struct:CTargaHead	file:
+imageType	imageLib/ImageIO.cpp	/^    uchar imageType;	\/\/ image type code$/;"	m	struct:CTargaHead	file:
+info_ptr	imageLib/ImageIOpng.cpp	/^static png_infop info_ptr = NULL;$/;"	v	file:
+initOneNodeMsgMem	MRF/regions-maxprod.cpp	/^void initOneNodeMsgMem(OneNodeCluster *nodeArray, FLOATTYPE *memChunk, $/;"	f
+initialize	MRF/mrf.cpp	/^void MRF::initialize()$/;"	f	class:MRF
+initializeAlg	MRF/BP-S.cpp	/^void BPS::initializeAlg()$/;"	f	class:BPS
+initializeAlg	MRF/GCoptimization.h	/^	void initializeAlg() {};$/;"	f	class:GCoptimization
+initializeAlg	MRF/ICM.cpp	/^void ICM::initializeAlg()$/;"	f	class:ICM
+initializeAlg	MRF/MaxProdBP.cpp	/^void MaxProdBP::initializeAlg()$/;"	f	class:MaxProdBP
+initializeAlg	MRF/TRW-S.cpp	/^void TRWS::initializeAlg()$/;"	f	class:TRWS
+initialize_memory	MRF/GCoptimization.cpp	/^void GCoptimization::initialize_memory()$/;"	f	class:GCoptimization
+isEmpty	MRF/LinkedBlockList.h	/^    inline bool isEmpty(){if (m_head == 0) return(true); else return(false);};$/;"	f	class:LinkedBlockList
+isValid	MRF/mrf.h	/^    virtual int isValid(){return true;};  $/;"	f	class:MRF
+is_sink	MRF/graph.h	/^        short           is_sink;    \/* flag showing whether the node is in the source or in the sink tree *\/$/;"	m	struct:Graph::node_st
+l1_dist_trans_comp	MRF/regions-maxprod.cpp	/^inline void l1_dist_trans_comp(FLOATTYPE smoothMax, FLOATTYPE c, FLOATTYPE* tmpMsgDest, FLOATTYPE * msgProd, int numStates)$/;"	f
+l2_dist_trans_comp	MRF/regions-maxprod.cpp	/^inline void l2_dist_trans_comp(FLOATTYPE smoothMax, FLOATTYPE c, FLOATTYPE* tmpMsgDest, FLOATTYPE * msgProd, int numStates)$/;"	f
+last	MRF/block.h	/^        Type                    *current, *last;$/;"	m	struct:Block::block_st
+last	MRF/block.h	/^    block   *last;$/;"	m	class:Block
+last_node	MRF/graph.h	199;"	d
+localEv	MRF/regions-new.h	/^              *localEv;$/;"	m	class:OneNodeCluster
+lowerBound	MRF/TRW-S.h	/^    double lowerBound() { return (double)m_lowerBound; }$/;"	f	class:TRWS
+lowerBound	MRF/mrf.h	/^    virtual double lowerBound(){return((double) 0);};$/;"	f	class:MRF
+m_D	MRF/BP-S.cpp	13;"	d	file:
+m_D	MRF/BP-S.h	/^    CostVal *m_D;$/;"	m	class:BPS
+m_D	MRF/ICM.cpp	7;"	d	file:
+m_D	MRF/ICM.h	/^    CostVal *m_D;$/;"	m	class:ICM
+m_D	MRF/MaxProdBP.cpp	9;"	d	file:
+m_D	MRF/MaxProdBP.h	/^	CostVal *m_D;$/;"	m	class:MaxProdBP
+m_D	MRF/TRW-S.cpp	13;"	d	file:
+m_D	MRF/TRW-S.h	/^    CostVal *m_D;$/;"	m	class:TRWS
+m_DBinary	MRF/BP-S.h	/^    CostVal *m_DBinary; \/\/ valid if type == BINARY$/;"	m	class:BPS
+m_DBinary	MRF/TRW-S.h	/^    CostVal *m_DBinary; \/\/ valid if type == BINARY$/;"	m	class:TRWS
+m_ExpData	MRF/MaxProdBP.h	/^  FLOATTYPE *m_ExpData;$/;"	m	class:MaxProdBP
+m_RLC	imageLib/ImageIO.cpp	/^    bool m_RLC;         \/\/ is stream run-length coded?$/;"	m	class:CTargaRLC	file:
+m_V	MRF/BP-S.cpp	14;"	d	file:
+m_V	MRF/BP-S.h	/^    CostVal *m_V; \/\/ points to array of size nLabels^2 (if type==FIXED_MATRIX) or of size nEdges*nLabels^2 (if type==GENERAL)$/;"	m	class:BPS
+m_V	MRF/ICM.cpp	8;"	d	file:
+m_V	MRF/ICM.h	/^    CostVal *m_V;$/;"	m	class:ICM
+m_V	MRF/MaxProdBP.cpp	10;"	d	file:
+m_V	MRF/MaxProdBP.h	/^	CostVal *m_V;$/;"	m	class:MaxProdBP
+m_V	MRF/TRW-S.cpp	14;"	d	file:
+m_V	MRF/TRW-S.h	/^    CostVal *m_V; \/\/ points to array of size nLabels^2 (if type==FIXED_MATRIX) or of size nEdges*nLabels^2 (if type==GENERAL)$/;"	m	class:TRWS
+m_V	MRF/mrf.h	/^    CostVal *m_V,*m_hWeights, *m_vWeights;$/;"	m	class:SmoothnessCost
+m_allocateArrayForSmoothnessCostFn	MRF/mrf.h	/^    bool m_allocateArrayForSmoothnessCostFn;$/;"	m	class:MRF
+m_answer	MRF/BP-S.h	/^    Label *m_answer;$/;"	m	class:BPS
+m_answer	MRF/ICM.h	/^    Label *m_answer;$/;"	m	class:ICM
+m_answer	MRF/MaxProdBP.h	/^	Label *m_answer;$/;"	m	class:MaxProdBP
+m_answer	MRF/TRW-S.h	/^    Label *m_answer;$/;"	m	class:TRWS
+m_bandSize	imageLib/Image.h	/^    int m_bandSize;         \/\/ size of each band in bytes$/;"	m	class:CImage
+m_buffer	imageLib/ImageIO.cpp	/^    uchar m_buffer[4];  \/\/ internal buffer$/;"	m	class:CTargaRLC	file:
+m_costArray	MRF/mrf.h	/^    MRF::CostVal *m_costArray;$/;"	m	class:DataCost
+m_costFn	MRF/mrf.h	/^    MRF::DataCostFn m_costFn;$/;"	m	class:DataCost
+m_costFn	MRF/mrf.h	/^    MRF::SmoothCostGeneralFn m_costFn;$/;"	m	class:SmoothnessCost
+m_count	imageLib/ImageIO.cpp	/^    int m_count;        \/\/ remaining count in current run$/;"	m	class:CTargaRLC	file:
+m_cursor	MRF/LinkedBlockList.h	/^    LLBlock *m_cursor;$/;"	m	class:LinkedBlockList
+m_cursor_ind	MRF/LinkedBlockList.h	/^    BlockType m_cursor_ind;$/;"	m	class:LinkedBlockList
+m_dataCost	MRF/mrf.h	/^    DataCost *m_dataCost;$/;"	m	class:EnergyFunction
+m_dataFn	MRF/BP-S.h	/^    DataCostFn m_dataFn;$/;"	m	class:BPS
+m_dataFn	MRF/ICM.h	/^    DataCostFn m_dataFn;$/;"	m	class:ICM
+m_dataFn	MRF/MaxProdBP.h	/^	DataCostFn m_dataFn;$/;"	m	class:MaxProdBP
+m_dataFn	MRF/TRW-S.h	/^    DataCostFn m_dataFn;$/;"	m	class:TRWS
+m_dataFnPix	MRF/GCoptimization.h	/^    DataCostFn m_dataFnPix;$/;"	m	class:GCoptimization
+m_dataType	MRF/mrf.h	/^    InputType m_dataType;     $/;"	m	class:MRF
+m_datacost	MRF/GCoptimization.h	/^    EnergyTermType *m_datacost;$/;"	m	class:GCoptimization
+m_datacost	MRF/GCoptimization.h	35;"	d
+m_delFn	imageLib/RefCntMem.h	/^    void (*m_delFn)(void *ptr); \/\/ optional delete function$/;"	m	struct:CRefCntMemPtr
+m_deleteWhenDone	imageLib/RefCntMem.h	/^    bool m_deleteWhenDone;  \/\/ delete memory when ref-count drops to 0$/;"	m	struct:CRefCntMemPtr
+m_e	MRF/mrf.h	/^    EnergyFunction *m_e;$/;"	m	class:MRF
+m_eng	MRF/mrf.h	/^    EnergyFunction *m_eng;$/;"	m	class:SmoothnessCost
+m_exp_scale	MRF/MaxProdBP.h	/^  FLOATTYPE m_exp_scale;$/;"	m	class:MaxProdBP
+m_grid_graph	MRF/mrf.h	/^    bool m_grid_graph;   \/\/ true if the graph is a 2D grid$/;"	m	class:MRF
+m_hWeights	MRF/mrf.h	/^    CostVal *m_V,*m_hWeights, *m_vWeights;$/;"	m	class:SmoothnessCost
+m_head	MRF/LinkedBlockList.h	/^    LLBlock *m_head;$/;"	m	class:LinkedBlockList
+m_head_block_size	MRF/LinkedBlockList.h	/^    BlockType m_head_block_size;$/;"	m	class:LinkedBlockList
+m_height	MRF/mrf.h	/^    int  m_width, m_height;  \/\/ width and height of a grid,if graph is a grid$/;"	m	class:MRF
+m_horizWeights	MRF/GCoptimization.h	/^    EnergyTermType *m_horizWeights;$/;"	m	class:GCoptimization
+m_horizWeights	MRF/ICM.h	/^    CostVal *m_horizWeights;$/;"	m	class:ICM
+m_horizWeights	MRF/MaxProdBP.h	/^	CostVal *m_horizWeights;$/;"	m	class:MaxProdBP
+m_horzWeights	MRF/BP-S.h	/^    CostVal *m_horzWeights;$/;"	m	class:BPS
+m_horzWeights	MRF/TRW-S.h	/^    CostVal *m_horzWeights;$/;"	m	class:TRWS
+m_horzWeightsBinary	MRF/BP-S.h	/^    CostVal *m_horzWeightsBinary;$/;"	m	class:BPS
+m_horzWeightsBinary	MRF/TRW-S.h	/^    CostVal *m_horzWeightsBinary;$/;"	m	class:TRWS
+m_initialized	MRF/mrf.h	/^    bool m_initialized;  \/\/ true if array m_V is allocated memory.  $/;"	m	class:MRF
+m_isRun	imageLib/ImageIO.cpp	/^    bool m_isRun;       \/\/ is current stream of pixels a run?$/;"	m	class:CTargaRLC	file:
+m_item	MRF/LinkedBlockList.h	/^        ListType m_item[GCLL_BLOCK_SIZE];$/;"	m	struct:LinkedBlockList::LLBlockStruct
+m_labelTable	MRF/GCoptimization.h	/^    LabelType *m_labelTable;$/;"	m	class:GCoptimization
+m_labeling	MRF/GCoptimization.h	/^    LabelType *m_labeling;$/;"	m	class:GCoptimization
+m_lambda	MRF/BP-S.h	/^    CostVal m_lambda;    \/\/ m_type == L1 or m_type == L2$/;"	m	class:BPS
+m_lambda	MRF/MaxProdBP.h	/^  CostVal m_lambda;$/;"	m	class:MaxProdBP
+m_lambda	MRF/TRW-S.h	/^    CostVal m_lambda;    \/\/ m_type == L1 or m_type == L2$/;"	m	class:TRWS
+m_lambda	MRF/mrf.h	/^    CostVal m_smoothMax,m_lambda;$/;"	m	class:SmoothnessCost
+m_lookupPixVar	MRF/GCoptimization.h	/^    PixelType *m_lookupPixVar;$/;"	m	class:GCoptimization
+m_lowerBound	MRF/TRW-S.h	/^    REAL m_lowerBound;$/;"	m	class:TRWS
+m_memStart	imageLib/Image.h	/^    char* m_memStart;       \/\/ start of addressable memory$/;"	m	class:CImage
+m_memory	imageLib/Image.h	/^    CRefCntMem m_memory;    \/\/ reference counted memory$/;"	m	class:CImage
+m_memory	imageLib/RefCntMem.h	/^    void *m_memory;         \/\/ allocated memory$/;"	m	struct:CRefCntMemPtr
+m_messageArraySizeInBytes	MRF/BP-S.h	/^    int	  m_messageArraySizeInBytes;$/;"	m	class:BPS
+m_messageArraySizeInBytes	MRF/TRW-S.h	/^    int	  m_messageArraySizeInBytes;$/;"	m	class:TRWS
+m_message_chunk	MRF/MaxProdBP.h	/^  FLOATTYPE *m_message_chunk;$/;"	m	class:MaxProdBP
+m_messages	MRF/BP-S.h	/^    REAL* m_messages; \/\/ size of one message: N = 1 if m_type == BINARY, N = K otherwise$/;"	m	class:BPS
+m_messages	MRF/TRW-S.h	/^    REAL* m_messages; \/\/ size of one message: N = 1 if m_type == BINARY, N = K otherwise$/;"	m	class:TRWS
+m_nBytes	imageLib/RefCntMem.h	/^    int m_nBytes;           \/\/ number of bytes$/;"	m	struct:CRefCntMemPtr
+m_nLabels	MRF/mrf.h	/^    int  m_nLabels;          \/\/ number of labels, for both grid and non-grid graphs$/;"	m	class:MRF
+m_nPixels	MRF/mrf.h	/^    int  m_nPixels;          \/\/ number of pixels, for both grid and non-grid graphs$/;"	m	class:MRF
+m_needToFreeD	MRF/BP-S.h	/^    bool m_needToFreeD;$/;"	m	class:BPS
+m_needToFreeD	MRF/TRW-S.h	/^    bool m_needToFreeD;$/;"	m	class:TRWS
+m_needToFreeV	MRF/BP-S.h	/^    bool m_needToFreeV;$/;"	m	class:BPS
+m_needToFreeV	MRF/GCoptimization.h	/^    bool m_needToFreeV;$/;"	m	class:GCoptimization
+m_needToFreeV	MRF/ICM.h	/^    bool m_needToFreeV;$/;"	m	class:ICM
+m_needToFreeV	MRF/MaxProdBP.h	/^	bool m_needToFreeV;$/;"	m	class:MaxProdBP
+m_needToFreeV	MRF/TRW-S.h	/^    bool m_needToFreeV;$/;"	m	class:TRWS
+m_neighbors	MRF/GCoptimization.h	/^    LinkedBlockList *m_neighbors;$/;"	m	class:GCoptimization
+m_neighbors	MRF/ICM.h	/^    LinkedBlockList *m_neighbors;$/;"	m	class:ICM
+m_neighbors	MRF/MaxProdBP.h	/^  LinkedBlockList *m_neighbors;$/;"	m	class:MaxProdBP
+m_next	MRF/LinkedBlockList.h	/^        struct LLBlockStruct *m_next;$/;"	m	struct:LinkedBlockList::LLBlockStruct	typeref:struct:LinkedBlockList::LLBlockStruct::LLBlockStruct
+m_pTI	imageLib/Image.h	/^    const type_info* m_pTI; \/\/ pointer to type_info class$/;"	m	class:CImage
+m_pixSize	imageLib/Image.h	/^    int m_pixSize;          \/\/ stride between pixels in bytes$/;"	m	class:CImage
+m_pixels	MRF/GCoptimization.h	/^    PixelType *m_pixels;$/;"	m	class:Swap
+m_ptr	imageLib/RefCntMem.h	/^    CRefCntMemPtr *m_ptr;       \/\/ shared reference-counted memory pointer$/;"	m	class:CRefCntMem
+m_random_label_order	MRF/GCoptimization.h	/^    bool m_random_label_order;$/;"	m	class:GCoptimization
+m_refCnt	imageLib/RefCntMem.h	/^    int m_refCnt;           \/\/ reference count$/;"	m	struct:CRefCntMemPtr
+m_rowSize	imageLib/Image.h	/^    int m_rowSize;          \/\/ stride between rows in bytes$/;"	m	class:CImage
+m_scratchMatrix	MRF/MaxProdBP.h	/^  FLOATTYPE *m_scratchMatrix;$/;"	m	class:MaxProdBP
+m_shape	imageLib/Image.h	/^    CShape m_shape;         \/\/ image shape (dimensions)$/;"	m	class:CImage
+m_smoothCost	MRF/mrf.h	/^    SmoothnessCost *m_smoothCost;$/;"	m	class:EnergyFunction
+m_smoothExp	MRF/MaxProdBP.h	/^  int m_smoothExp;$/;"	m	class:MaxProdBP
+m_smoothExp	MRF/mrf.h	/^    int m_smoothExp;$/;"	m	class:SmoothnessCost
+m_smoothFn	MRF/BP-S.h	/^    SmoothCostGeneralFn m_smoothFn;$/;"	m	class:BPS
+m_smoothFn	MRF/ICM.h	/^    SmoothCostGeneralFn m_smoothFn;$/;"	m	class:ICM
+m_smoothFn	MRF/MaxProdBP.h	/^	SmoothCostGeneralFn m_smoothFn;$/;"	m	class:MaxProdBP
+m_smoothFn	MRF/TRW-S.h	/^    SmoothCostGeneralFn m_smoothFn;$/;"	m	class:TRWS
+m_smoothFnPix	MRF/GCoptimization.h	/^    SmoothCostGeneralFn m_smoothFnPix;$/;"	m	class:GCoptimization
+m_smoothMax	MRF/BP-S.h	/^    CostVal m_smoothMax; \/\/ used only if$/;"	m	class:BPS
+m_smoothMax	MRF/MaxProdBP.h	/^  CostVal m_smoothMax;$/;"	m	class:MaxProdBP
+m_smoothMax	MRF/TRW-S.h	/^    CostVal m_smoothMax; \/\/ used only if$/;"	m	class:TRWS
+m_smoothMax	MRF/mrf.h	/^    CostVal m_smoothMax,m_lambda;$/;"	m	class:SmoothnessCost
+m_smoothType	MRF/mrf.h	/^    InputType m_smoothType;$/;"	m	class:MRF
+m_smoothcost	MRF/GCoptimization.h	/^    EnergyTermType *m_smoothcost;$/;"	m	class:GCoptimization
+m_smoothcost	MRF/GCoptimization.h	36;"	d
+m_type	MRF/BP-S.h	/^	} m_type;$/;"	m	class:BPS	typeref:enum:BPS::__anon1
+m_type	MRF/MaxProdBP.h	/^    } m_type;$/;"	m	class:MaxProdBP	typeref:enum:MaxProdBP::__anon7
+m_type	MRF/TRW-S.h	/^	} m_type;$/;"	m	class:TRWS	typeref:enum:TRWS::__anon3
+m_type	MRF/mrf.h	/^    MRF::InputType m_type;     $/;"	m	class:DataCost
+m_type	MRF/mrf.h	/^    MRF::InputType m_type;$/;"	m	class:SmoothnessCost
+m_vWeights	MRF/mrf.h	/^    CostVal *m_V,*m_hWeights, *m_vWeights;$/;"	m	class:SmoothnessCost
+m_varWeights	MRF/mrf.h	/^    bool m_varWeights;   \/\/ true if weights are spatially varying. To be used only with 2D grids$/;"	m	class:MRF
+m_varWeights	MRF/mrf.h	/^    bool m_varWeights;$/;"	m	class:SmoothnessCost
+m_vertWeights	MRF/BP-S.h	/^    CostVal *m_vertWeights;$/;"	m	class:BPS
+m_vertWeights	MRF/GCoptimization.h	/^    EnergyTermType *m_vertWeights;$/;"	m	class:GCoptimization
+m_vertWeights	MRF/ICM.h	/^    CostVal *m_vertWeights;$/;"	m	class:ICM
+m_vertWeights	MRF/MaxProdBP.h	/^	CostVal *m_vertWeights;$/;"	m	class:MaxProdBP
+m_vertWeights	MRF/TRW-S.h	/^    CostVal *m_vertWeights;$/;"	m	class:TRWS
+m_vertWeightsBinary	MRF/BP-S.h	/^    CostVal *m_vertWeightsBinary;$/;"	m	class:BPS
+m_vertWeightsBinary	MRF/TRW-S.h	/^    CostVal *m_vertWeightsBinary;$/;"	m	class:TRWS
+m_weight	MRF/GCoptimization.h	/^    EnergyTermType m_weight;$/;"	m	class:GCoptimization
+m_width	MRF/mrf.h	/^    int  m_width, m_height;  \/\/ width and height of a grid,if graph is a grid$/;"	m	class:MRF
+main	MRF/example.cpp	/^int main(int argc, char **argv)$/;"	f
+main	mrfstereo/mrfstereo.cpp	/^int main(int argc, char **argv)$/;"	f
+maxflow	MRF/maxflow.cpp	/^Graph::flowtype Graph::maxflow()$/;"	f	class:Graph
+maxflow_init	MRF/maxflow.cpp	/^void Graph::maxflow_init()$/;"	f	class:Graph
+message	imageLib/Error.h	/^    char message[1024];         \/\/ longest allowable message$/;"	m	struct:CError
+mexErrMsgTxt	MRF/regions-maxprod.cpp	11;"	d	file:
+mexPrintf	MRF/regions-maxprod.cpp	10;"	d	file:
+minimize	MRF/energy.h	/^inline Energy::TotalValue Energy::minimize() { return Econst + maxflow(); }$/;"	f	class:Energy
+nBands	imageLib/Image.h	/^    int nBands;             \/\/ number of bands\/channels$/;"	m	struct:CShape
+next	MRF/LinkedBlockList.cpp	/^ListType LinkedBlockList::next()$/;"	f	class:LinkedBlockList
+next	MRF/block.h	/^        struct block_st         *next;$/;"	m	struct:Block::block_st	typeref:struct:Block::block_st::block_st
+next	MRF/block.h	/^        struct block_st         *next;$/;"	m	struct:DBlock::block_st	typeref:struct:DBlock::block_st::block_st
+next	MRF/graph.h	/^        node_st         *next;      \/* pointer to the next active node$/;"	m	struct:Graph::node_st
+next	MRF/graph.h	/^        nodeptr_st      *next;$/;"	m	struct:Graph::nodeptr_st
+next	MRF/graph.h	/^        struct arc_for_block_st *next;$/;"	m	struct:Graph::arc_for_block_st	typeref:struct:Graph::arc_for_block_st::arc_for_block_st
+next	MRF/graph.h	/^        struct arc_rev_block_st *next;$/;"	m	struct:Graph::arc_rev_block_st	typeref:struct:Graph::arc_rev_block_st::arc_rev_block_st
+next	MRF/graph.h	/^        struct node_block_st    *next;$/;"	m	struct:Graph::node_block_st	typeref:struct:Graph::node_block_st::node_block_st
+nextRoundReceivedMsgs	MRF/regions-new.h	/^              *nextRoundReceivedMsgs[4],$/;"	m	class:OneNodeCluster
+next_active	MRF/maxflow.cpp	/^inline Graph::node * Graph::next_active()$/;"	f	class:Graph
+next_free	MRF/block.h	/^        block_item_st   *next_free;$/;"	m	union:DBlock::block_item_st
+node	MRF/graph.h	/^    } node;$/;"	t	class:Graph	typeref:struct:Graph::node_st
+nodeArray	MRF/MaxProdBP.h	/^  OneNodeCluster *nodeArray;$/;"	m	class:MaxProdBP
+node_block	MRF/graph.h	/^    } node_block;$/;"	t	class:Graph	typeref:struct:Graph::node_block_st
+node_block_first	MRF/graph.h	/^    node_block          *node_block_first;$/;"	m	class:Graph
+node_block_st	MRF/graph.h	/^    typedef struct node_block_st$/;"	s	class:Graph
+node_id	MRF/graph.h	/^    typedef void * node_id;$/;"	t	class:Graph
+node_st	MRF/graph.h	/^    typedef struct node_st$/;"	s	class:Graph
+nodeptr	MRF/graph.h	/^    } nodeptr;$/;"	t	class:Graph	typeref:struct:Graph::nodeptr_st
+nodeptr_block	MRF/graph.h	/^    DBlock<nodeptr>     *nodeptr_block;$/;"	m	class:Graph
+nodeptr_st	MRF/graph.h	/^    typedef struct nodeptr_st$/;"	s	class:Graph
+nodes	MRF/graph.h	/^        node                    nodes[NODE_BLOCK_SIZE];$/;"	m	struct:Graph::node_block_st
+numIterRun	MRF/regions-maxprod.cpp	/^int numIterRun;$/;"	v
+numLabels	MRF/example.cpp	/^const int numLabels = 20;$/;"	v
+numStates	MRF/regions-maxprod.cpp	/^int OneNodeCluster::numStates;$/;"	m	class:OneNodeCluster	file:
+numStates	MRF/regions-new.h	/^  static int numStates;$/;"	m	class:OneNodeCluster
+oneExpansionIteration	MRF/GCoptimization.cpp	/^GCoptimization::EnergyType Expansion::oneExpansionIteration()$/;"	f	class:Expansion
+oneSwapIteration	MRF/GCoptimization.cpp	/^GCoptimization::EnergyType Swap::oneSwapIteration()$/;"	f	class:Swap
+operator !=	imageLib/Image.cpp	/^bool CShape::operator!=(const CShape& ref)$/;"	f	class:CShape
+operator =	imageLib/RefCntMem.cpp	/^CRefCntMem& CRefCntMem::operator=(const CRefCntMem& ref)$/;"	f	class:CRefCntMem
+operator ==	imageLib/Image.cpp	/^bool CShape::operator==(const CShape& ref)$/;"	f	class:CShape
+optarg	mrfstereo/XGetopt.cpp	/^char	*optarg;		\/\/ global argument pointer$/;"	v
+optimize	MRF/mrf.cpp	/^void MRF::optimize(int nIterations, float& time)$/;"	f	class:MRF
+optimizeAlg	MRF/BP-S.cpp	/^void BPS::optimizeAlg(int nIterations)$/;"	f	class:BPS
+optimizeAlg	MRF/GCoptimization.cpp	/^void Expansion::optimizeAlg(int nIterations)$/;"	f	class:Expansion
+optimizeAlg	MRF/GCoptimization.cpp	/^void Swap::optimizeAlg(int nIterations)$/;"	f	class:Swap
+optimizeAlg	MRF/ICM.cpp	/^void ICM::optimizeAlg(int nIterations)$/;"	f	class:ICM
+optimizeAlg	MRF/MaxProdBP.cpp	/^void MaxProdBP::optimizeAlg(int nIterations)$/;"	f	class:MaxProdBP
+optimizeAlg	MRF/TRW-S.cpp	/^void TRWS::optimizeAlg(int nIterations)$/;"	f	class:TRWS
+optimize_GRID_BINARY	MRF/BP-S.cpp	/^void BPS::optimize_GRID_BINARY(int nIterations)$/;"	f	class:BPS
+optimize_GRID_BINARY	MRF/TRW-S.cpp	/^void TRWS::optimize_GRID_BINARY(int nIterations)$/;"	f	class:TRWS
+optimize_GRID_FIXED_MATRIX	MRF/BP-S.cpp	/^void BPS::optimize_GRID_FIXED_MATRIX(int nIterations)$/;"	f	class:BPS
+optimize_GRID_FIXED_MATRIX	MRF/TRW-S.cpp	/^void TRWS::optimize_GRID_FIXED_MATRIX(int nIterations)$/;"	f	class:TRWS
+optimize_GRID_GENERAL	MRF/BP-S.cpp	/^void BPS::optimize_GRID_GENERAL(int nIterations)$/;"	f	class:BPS
+optimize_GRID_GENERAL	MRF/TRW-S.cpp	/^void TRWS::optimize_GRID_GENERAL(int nIterations)$/;"	f	class:TRWS
+optimize_GRID_L1	MRF/BP-S.cpp	/^void BPS::optimize_GRID_L1(int nIterations)$/;"	f	class:BPS
+optimize_GRID_L1	MRF/TRW-S.cpp	/^void TRWS::optimize_GRID_L1(int nIterations)$/;"	f	class:TRWS
+optimize_GRID_L2	MRF/BP-S.cpp	/^void BPS::optimize_GRID_L2(int nIterations)$/;"	f	class:BPS
+optimize_GRID_L2	MRF/TRW-S.cpp	/^void TRWS::optimize_GRID_L2(int nIterations)$/;"	f	class:TRWS
+optind	mrfstereo/XGetopt.cpp	/^int		optind = 0; 	\/\/ global argv index$/;"	v
+origin	imageLib/Image.h	/^    int origin[2];          \/\/ x and y coordinate origin (for some operations)$/;"	m	struct:CImageAttributes
+orphan_first	MRF/graph.h	/^    nodeptr             *orphan_first, *orphan_last;        \/* list of pointers to orphans *\/$/;"	m	class:Graph
+orphan_last	MRF/graph.h	/^    nodeptr             *orphan_first, *orphan_last;        \/* list of pointers to orphans *\/$/;"	m	class:Graph
+parent	MRF/graph.h	/^        arc_forward_st  *parent;    \/* describes node's parent$/;"	m	struct:Graph::node_st
+perform_alpha_beta_swap	MRF/GCoptimization.cpp	/^void Swap::perform_alpha_beta_swap(LabelType alpha_label, LabelType beta_label)$/;"	f	class:Swap
+perform_alpha_expansion	MRF/GCoptimization.cpp	/^void Expansion::perform_alpha_expansion(LabelType alpha_label)$/;"	f	class:Expansion
+pixelSize	imageLib/ImageIO.cpp	/^    uchar pixelSize;    \/\/ image pixel size$/;"	m	struct:CTargaHead	file:
+png_ptr	imageLib/ImageIOpng.cpp	/^static png_structp png_ptr = NULL;$/;"	v	file:
+pngfile_error	imageLib/ImageIOpng.cpp	/^static void pngfile_error(png_structp \/*png_ptr*\/, png_const_charp msg)$/;"	f	file:
+prepare_graph	MRF/graph.cpp	/^void Graph::prepare_graph()$/;"	f	class:Graph
+private	MRF/BP-S.cpp	10;"	d	file:
+private	MRF/BP-S.cpp	8;"	d	file:
+private	MRF/TRW-S.cpp	10;"	d	file:
+private	MRF/TRW-S.cpp	8;"	d	file:
+process_sink_orphan	MRF/maxflow.cpp	/^void Graph::process_sink_orphan(node *i)$/;"	f	class:Graph
+process_source_orphan	MRF/maxflow.cpp	/^void Graph::process_source_orphan(node *i)$/;"	f	class:Graph
+ptr	MRF/graph.h	/^        node_st         *ptr;$/;"	m	struct:Graph::nodeptr_st
+queue_first	MRF/graph.h	/^    node                *queue_first[2], *queue_last[2];    \/* list of active nodes *\/$/;"	m	class:Graph
+queue_last	MRF/graph.h	/^    node                *queue_first[2], *queue_last[2];    \/* list of active nodes *\/$/;"	m	class:Graph
+r_cap	MRF/graph.h	/^        captype         r_cap;      \/* residual capacity *\/$/;"	m	struct:Graph::arc_forward_st
+r_rev_cap	MRF/graph.h	/^        captype         r_rev_cap;  \/* residual capacity of the reverse arc*\/$/;"	m	struct:Graph::arc_forward_st
+read_header	imageLib/ImageIO.cpp	/^void read_header(FILE *fp, const char *imtype, char c1, char c2, $/;"	f
+receivedMsgs	MRF/regions-new.h	/^  FLOATTYPE   *receivedMsgs[4],$/;"	m	class:OneNodeCluster
+removeRedundantBands	imageLib/ImageIOpng.cpp	/^CByteImage removeRedundantBands(CByteImage img)$/;"	f
+scan_current_block	MRF/block.h	/^    block   *scan_current_block;$/;"	m	class:Block
+scan_current_data	MRF/block.h	/^    Type    *scan_current_data;$/;"	m	class:Block
+scramble_label_table	MRF/GCoptimization.cpp	/^void GCoptimization::scramble_label_table()$/;"	f	class:GCoptimization
+setCues	MRF/BP-S.cpp	/^void BPS::setCues(CostVal* hCue, CostVal* vCue)$/;"	f	class:BPS
+setCues	MRF/GCoptimization.cpp	/^void GCoptimization::setCues(EnergyTermType* hCue, EnergyTermType* vCue)$/;"	f	class:GCoptimization
+setCues	MRF/ICM.cpp	/^void ICM::setCues(CostVal* hCue, CostVal* vCue)$/;"	f	class:ICM
+setCues	MRF/MaxProdBP.cpp	/^void MaxProdBP::setCues(CostVal* hCue, CostVal* vCue)$/;"	f	class:MaxProdBP
+setCues	MRF/TRW-S.cpp	/^void TRWS::setCues(CostVal* hCue, CostVal* vCue)$/;"	f	class:TRWS
+setCursorFront	MRF/LinkedBlockList.h	/^    inline void setCursorFront(){m_cursor = m_head; m_cursor_ind = 0;};$/;"	f	class:LinkedBlockList
+setData	MRF/BP-S.cpp	/^void BPS::setData(CostVal* data)$/;"	f	class:BPS
+setData	MRF/BP-S.cpp	/^void BPS::setData(DataCostFn dcost)$/;"	f	class:BPS
+setData	MRF/GCoptimization.cpp	/^void GCoptimization::setData(DataCostFn dataFn)$/;"	f	class:GCoptimization
+setData	MRF/GCoptimization.cpp	/^void GCoptimization::setData(EnergyTermType* dataArray)$/;"	f	class:GCoptimization
+setData	MRF/ICM.cpp	/^void ICM::setData(CostVal* data)$/;"	f	class:ICM
+setData	MRF/ICM.cpp	/^void ICM::setData(DataCostFn dcost)$/;"	f	class:ICM
+setData	MRF/MaxProdBP.cpp	/^void MaxProdBP::setData(CostVal* data)$/;"	f	class:MaxProdBP
+setData	MRF/MaxProdBP.cpp	/^void MaxProdBP::setData(DataCostFn dcost)$/;"	f	class:MaxProdBP
+setData	MRF/TRW-S.cpp	/^void TRWS::setData(CostVal* data)$/;"	f	class:TRWS
+setData	MRF/TRW-S.cpp	/^void TRWS::setData(DataCostFn dcost)$/;"	f	class:TRWS
+setDisparities	mrfstereo/mrfstereo.cpp	/^void setDisparities(CByteImage disp, MRF *mrf)$/;"	f
+setExpScale	MRF/MaxProdBP.cpp	/^void MaxProdBP::setExpScale(int expScale)$/;"	f	class:MaxProdBP
+setLabel	MRF/BP-S.h	/^    void setLabel(int pixel,Label label){m_answer[pixel] = label;};$/;"	f	class:BPS
+setLabel	MRF/GCoptimization.h	/^    inline void setLabel(PixelType pixel, LabelType label){$/;"	f	class:GCoptimization
+setLabel	MRF/ICM.h	/^    void setLabel(int pixel,Label label){m_answer[pixel] = label;};$/;"	f	class:ICM
+setLabel	MRF/MaxProdBP.h	/^	void setLabel(int pixel,Label label){m_answer[pixel] = label;};$/;"	f	class:MaxProdBP
+setLabel	MRF/TRW-S.h	/^    void setLabel(int pixel,Label label){m_answer[pixel] = label;};$/;"	f	class:TRWS
+setLabelOrder	MRF/GCoptimization.cpp	/^void GCoptimization::setLabelOrder(bool RANDOM_LABEL_ORDER)$/;"	f	class:GCoptimization
+setNeighbors	MRF/BP-S.h	/^    void setNeighbors(int \/*pix1*\/, int \/*pix2*\/, CostVal \/*weight*\/){printf("Not implemented"); exit(1);}$/;"	f	class:BPS
+setNeighbors	MRF/GCoptimization.cpp	/^void GCoptimization::setNeighbors(PixelType pixel1, int pixel2, EnergyTermType weight)$/;"	f	class:GCoptimization
+setNeighbors	MRF/ICM.cpp	/^void ICM::setNeighbors(int pixel1, int pixel2, CostVal weight)$/;"	f	class:ICM
+setNeighbors	MRF/MaxProdBP.cpp	/^void MaxProdBP::setNeighbors(int pixel1, int pixel2, CostVal weight)$/;"	f	class:MaxProdBP
+setNeighbors	MRF/TRW-S.h	/^    void setNeighbors(int \/*pix1*\/, int \/*pix2*\/, CostVal \/*weight*\/){printf("Not implemented"); exit(1);}$/;"	f	class:TRWS
+setParameters	MRF/BP-S.h	/^    void setParameters(int \/*numParam*\/, void * \/*param*\/){printf("No optional parameters to set"); exit(1);}$/;"	f	class:BPS
+setParameters	MRF/GCoptimization.cpp	/^void GCoptimization::setParameters(int numParam, void *param)$/;"	f	class:GCoptimization
+setParameters	MRF/ICM.h	/^    void setParameters(int \/*numParam*\/, void * \/*param*\/){printf("No optional parameters to set"); exit(1);}$/;"	f	class:ICM
+setParameters	MRF/MaxProdBP.h	/^  void setParameters(int , void *){printf("No optional parameters to set");}$/;"	f	class:MaxProdBP
+setParameters	MRF/TRW-S.h	/^    void setParameters(int \/*numParam*\/, void * \/*param*\/){printf("No optional parameters to set"); exit(1);}$/;"	f	class:TRWS
+setSmoothness	MRF/BP-S.cpp	/^void BPS::setSmoothness(CostVal* V)$/;"	f	class:BPS
+setSmoothness	MRF/BP-S.cpp	/^void BPS::setSmoothness(SmoothCostGeneralFn cost)$/;"	f	class:BPS
+setSmoothness	MRF/BP-S.cpp	/^void BPS::setSmoothness(int smoothExp,CostVal smoothMax, CostVal lambda)$/;"	f	class:BPS
+setSmoothness	MRF/GCoptimization.cpp	/^void GCoptimization::setSmoothness(EnergyTermType* V)$/;"	f	class:GCoptimization
+setSmoothness	MRF/GCoptimization.cpp	/^void GCoptimization::setSmoothness(SmoothCostGeneralFn cost)$/;"	f	class:GCoptimization
+setSmoothness	MRF/GCoptimization.cpp	/^void GCoptimization::setSmoothness(int smoothExp,CostVal smoothMax, CostVal lambda)$/;"	f	class:GCoptimization
+setSmoothness	MRF/ICM.cpp	/^void ICM::setSmoothness(CostVal* V)$/;"	f	class:ICM
+setSmoothness	MRF/ICM.cpp	/^void ICM::setSmoothness(SmoothCostGeneralFn cost)$/;"	f	class:ICM
+setSmoothness	MRF/ICM.cpp	/^void ICM::setSmoothness(int smoothExp,CostVal smoothMax, CostVal lambda)$/;"	f	class:ICM
+setSmoothness	MRF/MaxProdBP.cpp	/^void MaxProdBP::setSmoothness(CostVal* V)$/;"	f	class:MaxProdBP
+setSmoothness	MRF/MaxProdBP.cpp	/^void MaxProdBP::setSmoothness(SmoothCostGeneralFn cost)$/;"	f	class:MaxProdBP
+setSmoothness	MRF/MaxProdBP.cpp	/^void MaxProdBP::setSmoothness(int smoothExp,CostVal smoothMax, CostVal lambda)$/;"	f	class:MaxProdBP
+setSmoothness	MRF/TRW-S.cpp	/^void TRWS::setSmoothness(CostVal* V)$/;"	f	class:TRWS
+setSmoothness	MRF/TRW-S.cpp	/^void TRWS::setSmoothness(SmoothCostGeneralFn cost)$/;"	f	class:TRWS
+setSmoothness	MRF/TRW-S.cpp	/^void TRWS::setSmoothness(int smoothExp,CostVal smoothMax, CostVal lambda)$/;"	f	class:TRWS
+set_active	MRF/maxflow.cpp	/^inline void Graph::set_active(node *i)$/;"	f	class:Graph
+set_tweights	MRF/graph.cpp	/^void Graph::set_tweights(node_id i, captype cap_source, captype cap_sink)$/;"	f	class:Graph
+set_up_expansion_energy_G_ARRAY	MRF/GCoptimization.cpp	/^void Expansion::set_up_expansion_energy_G_ARRAY(int size, LabelType alpha_label,Energy *e,$/;"	f	class:Expansion
+set_up_expansion_energy_G_ARRAY_VW	MRF/GCoptimization.cpp	/^void Expansion::set_up_expansion_energy_G_ARRAY_VW(int size, LabelType alpha_label,Energy *e,$/;"	f	class:Expansion
+set_up_expansion_energy_G_FnPix	MRF/GCoptimization.cpp	/^void Expansion::set_up_expansion_energy_G_FnPix(int size, LabelType alpha_label,Energy *e,$/;"	f	class:Expansion
+set_up_expansion_energy_NG_ARRAY	MRF/GCoptimization.cpp	/^void Expansion::set_up_expansion_energy_NG_ARRAY(int size, LabelType alpha_label,Energy *e,Energy::Var *variables )$/;"	f	class:Expansion
+set_up_expansion_energy_NG_FnPix	MRF/GCoptimization.cpp	/^void Expansion::set_up_expansion_energy_NG_FnPix(int size, LabelType alpha_label,Energy *e,Energy::Var *variables )$/;"	f	class:Expansion
+set_up_swap_energy_G_ARRAY	MRF/GCoptimization.cpp	/^void Swap::set_up_swap_energy_G_ARRAY(int size,LabelType alpha_label,LabelType beta_label,$/;"	f	class:Swap
+set_up_swap_energy_G_ARRAY_VW	MRF/GCoptimization.cpp	/^void Swap::set_up_swap_energy_G_ARRAY_VW(int size,LabelType alpha_label,LabelType beta_label,$/;"	f	class:Swap
+set_up_swap_energy_G_FnPix	MRF/GCoptimization.cpp	/^void Swap::set_up_swap_energy_G_FnPix(int size,LabelType alpha_label,LabelType beta_label,$/;"	f	class:Swap
+set_up_swap_energy_NG_ARRAY	MRF/GCoptimization.cpp	/^void Swap::set_up_swap_energy_NG_ARRAY(int size,LabelType alpha_label,LabelType beta_label,$/;"	f	class:Swap
+set_up_swap_energy_NG_FnPix	MRF/GCoptimization.cpp	/^void Swap::set_up_swap_energy_NG_FnPix(int size,LabelType alpha_label,LabelType beta_label,$/;"	f	class:Swap
+shift	MRF/graph.h	/^        PTR_CAST        shift;      \/* node_to = NEIGHBOR_NODE(node_from, shift) *\/$/;"	m	struct:Graph::arc_forward_st
+sister	MRF/graph.h	/^        arc_forward     *sister;    \/* reverse arc *\/$/;"	m	struct:Graph::arc_reverse_st
+sizeX	MRF/example.cpp	/^const int sizeX = 50;$/;"	v
+sizeY	MRF/example.cpp	/^const int sizeY = 50;$/;"	v
+skip_comment	imageLib/ImageIO.cpp	/^void skip_comment(FILE *fp)$/;"	f
+skip_space	imageLib/ImageIO.cpp	/^void skip_space(FILE *fp)$/;"	f
+smoothnessEnergy	MRF/BP-S.cpp	/^MRF::EnergyVal BPS::smoothnessEnergy()$/;"	f	class:BPS
+smoothnessEnergy	MRF/GCoptimization.cpp	/^GCoptimization::EnergyType GCoptimization::smoothnessEnergy()$/;"	f	class:GCoptimization
+smoothnessEnergy	MRF/ICM.cpp	/^MRF::EnergyVal ICM::smoothnessEnergy()$/;"	f	class:ICM
+smoothnessEnergy	MRF/MaxProdBP.cpp	/^MRF::EnergyVal MaxProdBP::smoothnessEnergy()$/;"	f	class:MaxProdBP
+smoothnessEnergy	MRF/TRW-S.cpp	/^MRF::EnergyVal TRWS::smoothnessEnergy()$/;"	f	class:TRWS
+start	MRF/graph.h	/^        char                    *start;     \/* the actual start address of this block.$/;"	m	struct:Graph::arc_for_block_st
+start	MRF/graph.h	/^        char                    *start;     \/* the actual start address of this block.$/;"	m	struct:Graph::arc_rev_block_st
+start_expansion	MRF/GCoptimization.cpp	/^GCoptimization::EnergyType Expansion::start_expansion(int max_num_iterations )$/;"	f	class:Expansion
+start_swap	MRF/GCoptimization.cpp	/^GCoptimization::EnergyType Swap::start_swap(int max_num_iterations )$/;"	f	class:Swap
+std	imageLib/Error.h	/^namespace std {}$/;"	n
+std	imageLib/Image.h	/^namespace std {}$/;"	n
+swap	MRF/GCoptimization.cpp	/^GCoptimization::EnergyType Swap::swap()$/;"	f	class:Swap
+swap	MRF/GCoptimization.cpp	/^GCoptimization::EnergyType Swap::swap(int max_num_iterations)$/;"	f	class:Swap
+t	MRF/block.h	/^        Type            t;$/;"	m	union:DBlock::block_item_st
+terminateOnError	MRF/GCoptimization.cpp	/^void GCoptimization::terminateOnError(bool error_condition,const char *message)$/;"	f	class:GCoptimization
+termtype	MRF/graph.h	/^    } termtype; \/* terminals *\/$/;"	t	class:Graph	typeref:enum:Graph::__anon4
+to_node	MRF/GCoptimization.h	/^        PixelType  to_node;$/;"	m	struct:GCoptimization::NeighborStruct
+to_node	MRF/ICM.h	/^        int     to_node;$/;"	m	struct:ICM::NeighborStruct
+to_node	MRF/MaxProdBP.h	/^    int     to_node;$/;"	m	struct:MaxProdBP::NeighborStruct
+totalCnt	MRF/example.cpp	/^int truncCnt, totalCnt;$/;"	v
+totalEnergy	MRF/mrf.cpp	/^MRF::EnergyVal MRF::totalEnergy()$/;"	f	class:MRF
+tr_cap	MRF/graph.h	/^        captype         tr_cap;     \/* if tr_cap > 0 then tr_cap is residual capacity of the arc SOURCE->node$/;"	m	struct:Graph::node_st
+truncCnt	MRF/example.cpp	/^int truncCnt, totalCnt;$/;"	v
+uchar	imageLib/Image.h	/^typedef unsigned char uchar;$/;"	t
+uchar	imageLib/ImageIO.cpp	/^typedef unsigned char uchar;$/;"	t	file:
+usage	MRF/example.cpp	/^static const char *usage = "usage: %s [energyType] (a number between 0 and 3)\\n";$/;"	v	file:
+usage	mrfstereo/mrfstereo.cpp	/^static char usage[] = "\\n mrfstereo version 1.0 \\n\\$/;"	v	file:
+vCue	MRF/example.cpp	/^MRF::CostVal vCue[sizeX*sizeY];$/;"	v
+varWeights	MRF/MaxProdBP.cpp	/^bool MaxProdBP::varWeights()$/;"	f	class:MaxProdBP
+vec_max	MRF/regions-maxprod.cpp	/^FLOATTYPE vec_max(FLOATTYPE *vec, int length)$/;"	f
+vec_min	MRF/regions-maxprod.cpp	/^FLOATTYPE vec_min(FLOATTYPE *vec, int length)$/;"	f
+verbose	mrfstereo/mrfstereo.cpp	/^int verbose;$/;"	v
+weight	MRF/GCoptimization.h	/^        EnergyTermType weight;$/;"	m	struct:GCoptimization::NeighborStruct
+weight	MRF/ICM.h	/^        CostVal weight;$/;"	m	struct:ICM::NeighborStruct
+weight	MRF/MaxProdBP.h	/^    CostVal weight;$/;"	m	struct:MaxProdBP::NeighborStruct
+what_segment	MRF/maxflow.cpp	/^Graph::termtype Graph::what_segment(node_id i)$/;"	f	class:Graph
+width	imageLib/Image.h	/^    int width, height;      \/\/ width and height in pixels$/;"	m	struct:CShape
+width	imageLib/ImageIO.cpp	/^    short width;		\/\/ width of image$/;"	m	struct:CTargaHead	file:
+writeDisparities	mrfstereo/mrfstereo.cpp	/^void writeDisparities(CByteImage disp, int outscale, char *dispname)$/;"	f
+writeParams	mrfstereo/mrfstereo.cpp	/^int writeParams;$/;"	v
+x0	imageLib/ImageIO.cpp	/^    short x0;			\/\/ x-origin of image$/;"	m	struct:CTargaHead	file:
+y0	imageLib/ImageIO.cpp	/^    short y0;			\/\/ y-origin of image$/;"	m	struct:CTargaHead	file:
+~BPS	MRF/BP-S.cpp	/^BPS::~BPS()$/;"	f	class:BPS
+~Block	MRF/block.h	/^    ~Block() { while (first) { block *next = first -> next; delete first; first = next; } }$/;"	f	class:Block
+~CRefCntMem	imageLib/RefCntMem.cpp	/^CRefCntMem::~CRefCntMem()$/;"	f	class:CRefCntMem
+~DBlock	MRF/block.h	/^    ~DBlock() { while (first) { block *next = first -> next; delete first; first = next; } }$/;"	f	class:DBlock
+~Energy	MRF/energy.h	/^inline Energy::~Energy() {}$/;"	f	class:Energy
+~GCoptimization	MRF/GCoptimization.cpp	/^GCoptimization::~GCoptimization()$/;"	f	class:GCoptimization
+~Graph	MRF/graph.cpp	/^Graph::~Graph()$/;"	f	class:Graph
+~ICM	MRF/ICM.cpp	/^ICM::~ICM()$/;"	f	class:ICM
+~LinkedBlockList	MRF/LinkedBlockList.cpp	/^LinkedBlockList::~LinkedBlockList()$/;"	f	class:LinkedBlockList
+~MRF	MRF/mrf.h	/^    virtual ~MRF() { }$/;"	f	class:MRF
+~MaxProdBP	MRF/MaxProdBP.cpp	/^MaxProdBP::~MaxProdBP()$/;"	f	class:MaxProdBP
+~Swap	MRF/GCoptimization.cpp	/^Swap::~Swap()$/;"	f	class:Swap
+~TRWS	MRF/TRW-S.cpp	/^TRWS::~TRWS()$/;"	f	class:TRWS
